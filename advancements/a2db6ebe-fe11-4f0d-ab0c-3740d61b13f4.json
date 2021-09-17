@@ -812,6 +812,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2021-09-17 19:05:45 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2021-08-21 17:07:39 -0300"
