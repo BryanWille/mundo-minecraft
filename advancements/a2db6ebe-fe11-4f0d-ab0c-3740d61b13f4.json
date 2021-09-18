@@ -1773,6 +1773,7 @@
       "baked_potato": "2021-08-22 21:26:19 -0300",
       "porkchop": "2021-08-22 20:21:43 -0300",
       "tropical_fish": "2021-08-22 21:05:11 -0300",
+      "potato": "2021-09-17 20:13:02 -0300",
       "cooked_cod": "2021-08-22 20:39:58 -0300",
       "bread": "2021-08-21 18:29:22 -0300",
       "golden_carrot": "2021-08-21 19:29:21 -0300",
@@ -2809,6 +2810,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2021-08-21 17:02:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2021-09-17 20:29:51 -0300"
     },
     "done": true
   },
