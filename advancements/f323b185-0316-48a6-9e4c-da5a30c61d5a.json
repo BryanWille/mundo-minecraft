@@ -1015,6 +1015,8 @@
     "criteria": {
       "minecraft:pillager": "2021-09-17 20:13:41 -0300",
       "minecraft:skeleton": "2021-09-17 22:31:37 -0300",
+      "minecraft:spider": "2021-09-19 22:16:08 -0300",
+      "minecraft:creeper": "2021-09-19 22:13:16 -0300",
       "minecraft:zombie": "2021-09-17 22:11:51 -0300"
     },
     "done": false
@@ -1334,6 +1336,12 @@
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2021-09-17 20:40:29 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2021-09-19 22:26:34 -0300"
     },
     "done": true
   },
