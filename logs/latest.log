@@ -1,17 +1,17 @@
-[11:57:01] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11:57:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:57:02] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:57:02] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:57:02] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:57:02] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:57:02] [main/INFO]: Reloading ResourceManager: Default
-[11:57:03] [Worker-Main-10/INFO]: Loaded 7 recipes
-[11:57:04] [Worker-Main-10/INFO]: Loaded 1137 advancements
-[11:57:06] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[11:57:06] [Server thread/INFO]: Loading properties
-[11:57:06] [Server thread/INFO]: Default game type: SURVIVAL
-[11:57:06] [Server thread/INFO]: Generating keypair
-[11:57:06] [Server console handler/ERROR]: Exception handling console input
+[18:50:05] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:50:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:50:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:50:05] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:50:05] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:50:05] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:50:05] [main/INFO]: Reloading ResourceManager: Default
+[18:50:06] [Worker-Main-12/INFO]: Loaded 7 recipes
+[18:50:07] [Worker-Main-12/INFO]: Loaded 1137 advancements
+[18:50:09] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[18:50:09] [Server thread/INFO]: Loading properties
+[18:50:09] [Server thread/INFO]: Default game type: SURVIVAL
+[18:50:09] [Server thread/INFO]: Generating keypair
+[18:50:09] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Identificador inválido
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:271) ~[?:?]
@@ -25,228 +25,57 @@ java.io.IOException: Identificador inválido
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at aas$1.run(SourceFile:101) [server.jar:?]
-[11:57:06] [Server thread/INFO]: Starting Minecraft server on 26.90.121.19:25565
-[11:57:06] [Server thread/INFO]: Using default channel type
-[11:57:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:57:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:57:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:57:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:57:06] [Server thread/INFO]: Preparing level "world"
-[11:57:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:57:07] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:57:07] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[11:57:08] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:57:08] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[11:57:09] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[11:57:09] [Worker-Main-8/INFO]: Preparing spawn area: 3%
-[11:57:10] [Worker-Main-11/INFO]: Preparing spawn area: 7%
-[11:57:10] [Worker-Main-9/INFO]: Preparing spawn area: 14%
-[11:57:11] [Worker-Main-9/INFO]: Preparing spawn area: 37%
-[11:57:11] [Worker-Main-12/INFO]: Preparing spawn area: 82%
-[11:57:12] [Server thread/INFO]: Time elapsed: 5399 ms
-[11:57:12] [Server thread/INFO]: Done (5.548s)! For help, type "help"
-[11:57:13] [Server thread/INFO]: teste[/26.235.26.115:57586] logged in with entity id 255 at (913.8626950057072, 63.5625, -1048.6550738807398)
-[11:57:13] [Server thread/INFO]: teste joined the game
-[11:57:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2447ms or 48 ticks behind
-[11:57:47] [Server thread/INFO]: ElliWx[/26.90.121.19:58577] logged in with entity id 350 at (922.3000000119209, 49.0, -1096.300000011921)
-[11:57:47] [Server thread/INFO]: ElliWx joined the game
-[11:57:59] [Server thread/INFO]: adrianogomide[/26.144.94.87:56618] logged in with entity id 457 at (908.4969573291828, 63.0, -1044.9004097853544)
-[11:57:59] [Server thread/INFO]: adrianogomide joined the game
-[12:00:21] [Server thread/INFO]: teste has made the advancement [Glow and Behold!]
-[12:00:32] [Server thread/INFO]: adrianogomide lost connection: Disconnected
-[12:00:32] [Server thread/INFO]: adrianogomide left the game
-[12:04:20] [Server thread/INFO]: adrianogomide[/26.144.94.87:56798] logged in with entity id 1672 at (946.0151182656367, 64.0, -1068.14183822352)
-[12:04:20] [Server thread/INFO]: adrianogomide joined the game
-[12:17:03] [Server thread/WARN]: adrianogomide moved wrongly!
-[12:19:49] [Server thread/INFO]: ElliWx has made the advancement [Hot Stuff]
-[12:29:23] [Server thread/INFO]: adrianogomide was slain by Iron Golem
-[12:31:30] [Server thread/INFO]: adrianogomide lost connection: Disconnected
-[12:31:30] [Server thread/INFO]: adrianogomide left the game
-[12:37:11] [Server thread/INFO]: ElliWx has made the advancement [Eye Spy]
-[12:37:28] [Server thread/INFO]: ElliWx has made the advancement [The End?]
-[12:37:52] [Server thread/INFO]: ElliWx was slain by Enderman
-[12:38:57] [Server thread/INFO]: adrianogomide[/26.144.94.87:55613] logged in with entity id 14933 at (969.6913805238172, 63.0, -1063.6721461196921)
-[12:38:57] [Server thread/INFO]: adrianogomide joined the game
-[12:46:35] [Server thread/INFO]: ElliWx has made the advancement [The City at the End of the Game]
-[12:46:39] [Server thread/INFO]: ElliWx has made the advancement [Local Brewery]
-[12:51:17] [Server thread/INFO]: <ElliWx> -3468 728
-[12:51:51] [Server thread/INFO]: Villager bjr['Villager'/12941, l='ServerLevel[k]', x=963.04, y=59.00, z=-1055.54] died, message: 'Villager was slain by Zombie'
-[12:52:05] [Server thread/INFO]: Villager bjr['Villager'/9725, l='ServerLevel[k]', x=964.30, y=58.75, z=-1055.30] died, message: 'Villager was slain by Zombie Villager'
-[12:56:09] [Server thread/INFO]: <ElliWx> -3468 728
-[12:58:30] [Server thread/INFO]: ElliWx has made the advancement [Remote Getaway]
-[12:59:54] [Server thread/INFO]: teste has reached the goal [Sky's the Limit]
-[13:11:09] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=932, y=48, z=-1103} gg{x=145, y=33, z=-228}
-[13:11:10] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=932, y=48, z=-1103} gg{x=145, y=33, z=-228}
-[13:11:20] [Server thread/INFO]: Villager bjr['Villager'/16470, l='ServerLevel[k]', x=971.63, y=56.00, z=-1056.59] died, message: 'Villager was slain by adrianogomide'
-[13:11:39] [Server thread/INFO]: ElliWx has made the advancement [A Terrible Fortress]
-[13:20:34] [Server thread/INFO]: Villager bjr['Villager'/30094, l='ServerLevel[k]', x=966.52, y=72.00, z=-1045.86] died, message: 'Villager burned to death'
-[13:26:31] [Server thread/INFO]: <teste> xzzzzzxdzsxzs
-[13:26:32] [Server thread/INFO]: <teste> x
-[13:26:32] [Server thread/INFO]: <teste> szzxz
-[13:26:32] [Server thread/INFO]: <teste> xz
-[13:26:33] [Server thread/INFO]: <teste> xzx
-[13:26:33] [Server thread/INFO]: <teste> zxz
-[13:26:34] [Server thread/INFO]: <adrianogomide> zzzzzzzzzz
-[13:26:35] [Server thread/INFO]: <adrianogomide> zzzzzzzzzzzz
-[13:26:36] [Server thread/INFO]: <adrianogomide> zzzzzzzzzz
-[13:26:37] [Server thread/INFO]: <adrianogomide> zzzzzzzzzzz
-[13:26:38] [Server thread/INFO]: <adrianogomide> zzzzzzzzz
-[13:26:40] [Server thread/INFO]: <teste> zzzzz
-[13:26:41] [Server thread/INFO]: <adrianogomide> zzzzzzzzzzzzZZZzzzzZZZz
-[13:36:18] [Server thread/INFO]: Villager bjr['Farmer'/84, l='ServerLevel[k]', x=956.69, y=66.56, z=-1056.52] died, message: 'Farmer was slain by ElliWx'
-[13:36:22] [Server thread/INFO]: Villager bjr['Farmer'/87, l='ServerLevel[k]', x=966.52, y=66.00, z=-1053.19] died, message: 'Farmer was slain by ElliWx'
-[13:36:33] [Server thread/INFO]: Villager bjr['Farmer'/55, l='ServerLevel[k]', x=967.63, y=66.56, z=-1054.53] died, message: 'Farmer was slain by ElliWx'
-[13:36:42] [Server thread/INFO]: Villager bjr['Farmer'/88, l='ServerLevel[k]', x=956.37, y=66.00, z=-1055.51] died, message: 'Farmer was slain by ElliWx'
-[13:36:45] [Server thread/INFO]: Villager bjr['Farmer'/52, l='ServerLevel[k]', x=955.53, y=66.00, z=-1045.95] died, message: 'Farmer was slain by ElliWx'
-[13:38:28] [Server thread/INFO]: <teste> zzzzzzzzzzzzzzzzzzz
-[13:41:55] [Server thread/INFO]: ElliWx was slain by Iron Golem
-[13:47:55] [Server thread/INFO]: ElliWx fell from a high place
-[13:52:26] [Server thread/INFO]: <teste> zzzzzzzzzzz
-[13:57:15] [Server thread/WARN]: ElliWx moved too quickly! 12.124736264426303,-1.022051741277366,-14.131568386175331
-[14:09:20] [Server thread/INFO]: teste lost connection: Disconnected
-[14:09:20] [Server thread/INFO]: teste left the game
-[14:09:58] [Server thread/INFO]: adrianogomide lost connection: Disconnected
-[14:09:58] [Server thread/INFO]: adrianogomide left the game
-[14:10:06] [Server thread/INFO]: ElliWx lost connection: Disconnected
-[14:10:06] [Server thread/INFO]: ElliWx left the game
-[14:44:24] [Server thread/INFO]: ElliWx[/26.90.121.19:56408] logged in with entity id 53259 at (913.7779325985526, 63.5625, -1046.8236771175066)
-[14:44:24] [Server thread/INFO]: ElliWx joined the game
-[14:55:20] [Server thread/INFO]: Villager bjr['Villager'/49758, l='ServerLevel[k]', x=951.45, y=66.00, z=-1047.73] died, message: 'Villager hit the ground too hard'
-[15:50:05] [Server thread/INFO]: teste[/26.235.26.115:54167] logged in with entity id 61761 at (884.4683788087565, 66.0, -1059.440557675908)
-[15:50:05] [Server thread/INFO]: teste joined the game
-[16:02:51] [Server thread/INFO]: ElliWx was slain by Iron Golem
-[16:05:09] [Server thread/INFO]: teste was slain by Iron Golem
-[16:08:03] [Server thread/INFO]: teste was slain by Iron Golem
-[16:42:20] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=932, y=41, z=-1098} gg{x=932, y=39, z=-1097}
-[16:50:05] [Server thread/INFO]: You whisper to teste: i want you by my side so i can never feel alone again
-[17:18:02] [Server thread/INFO]: <ElliWx> poe como se tivesse enterrado não?
-[17:18:26] [Server thread/INFO]: [Server] sua mãe é minha
-[17:18:28] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[17:18:28] [Server thread/INFO]: !help<--[HERE]
-[17:18:30] [Server thread/INFO]: /advancement (grant|revoke)
-[17:18:30] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[17:18:30] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in)
-[17:18:30] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[17:18:30] [Server thread/INFO]: /clear [<targets>]
-[17:18:30] [Server thread/INFO]: /clone <begin> <end> <destination> [replace|masked|filtered]
-[17:18:30] [Server thread/INFO]: /data (merge|get|remove|modify)
-[17:18:30] [Server thread/INFO]: /datapack (enable|disable|list)
-[17:18:30] [Server thread/INFO]: /debug (start|stop|function)
-[17:18:30] [Server thread/INFO]: /defaultgamemode (survival|creative|adventure|spectator)
-[17:18:30] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[17:18:30] [Server thread/INFO]: /effect (clear|give)
-[17:18:30] [Server thread/INFO]: /me <action>
-[17:18:30] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[17:18:30] [Server thread/INFO]: /experience (add|set|query)
-[17:18:30] [Server thread/INFO]: /xp -> experience
-[17:18:30] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[17:18:30] [Server thread/INFO]: /forceload (add|remove|query)
-[17:18:30] [Server thread/INFO]: /function <name>
-[17:18:30] [Server thread/INFO]: /gamemode (survival|creative|adventure|spectator)
-[17:18:30] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
-[17:18:30] [Server thread/INFO]: /give <targets> <item> [<count>]
-[17:18:30] [Server thread/INFO]: /help [<command>]
-[17:18:30] [Server thread/INFO]: /item (replace|modify)
-[17:18:30] [Server thread/INFO]: /kick <targets> [<reason>]
-[17:18:30] [Server thread/INFO]: /kill [<targets>]
-[17:18:30] [Server thread/INFO]: /list [uuids]
-[17:18:30] [Server thread/INFO]: /locate (pillager_outpost|mineshaft|mansion|jungle_pyramid|desert_pyramid|igloo|ruined_portal|shipwreck|swamp_hut|stronghold|monument|ocean_ruin|fortress|endcity|buried_treasure|village|nether_fossil|bastion_remnant)
-[17:18:30] [Server thread/INFO]: /locatebiome <biome>
-[17:18:30] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[17:18:30] [Server thread/INFO]: /msg <targets> <message>
-[17:18:30] [Server thread/INFO]: /tell -> msg
-[17:18:30] [Server thread/INFO]: /w -> msg
-[17:18:30] [Server thread/INFO]: /particle <name> [<pos>]
-[17:18:30] [Server thread/INFO]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
-[17:18:30] [Server thread/INFO]: /reload
-[17:18:30] [Server thread/INFO]: /recipe (give|take)
-[17:18:30] [Server thread/INFO]: /say <message>
-[17:18:30] [Server thread/INFO]: /schedule (function|clear)
-[17:18:30] [Server thread/INFO]: /scoreboard (objectives|players)
-[17:18:30] [Server thread/INFO]: /seed
-[17:18:30] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[17:18:30] [Server thread/INFO]: /spawnpoint [<targets>]
-[17:18:30] [Server thread/INFO]: /setworldspawn [<pos>]
-[17:18:30] [Server thread/INFO]: /spectate [<target>]
-[17:18:30] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[17:18:30] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[17:18:30] [Server thread/INFO]: /summon <entity> [<pos>]
-[17:18:30] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[17:18:30] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[17:18:30] [Server thread/INFO]: /teammsg <message>
-[17:18:30] [Server thread/INFO]: /tm -> teammsg
-[17:18:30] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[17:18:30] [Server thread/INFO]: /tp -> teleport
-[17:18:30] [Server thread/INFO]: /tellraw <targets> <message>
-[17:18:30] [Server thread/INFO]: /time (set|add|query)
-[17:18:30] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[17:18:30] [Server thread/INFO]: /trigger <objective> [add|set]
-[17:18:30] [Server thread/INFO]: /weather (clear|rain|thunder)
-[17:18:30] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[17:18:30] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[17:18:30] [Server thread/INFO]: /banlist [ips|players]
-[17:18:30] [Server thread/INFO]: /ban <targets> [<reason>]
-[17:18:30] [Server thread/INFO]: /deop <targets>
-[17:18:30] [Server thread/INFO]: /op <targets>
-[17:18:30] [Server thread/INFO]: /pardon <targets>
-[17:18:30] [Server thread/INFO]: /pardon-ip <target>
-[17:18:30] [Server thread/INFO]: /perf (start|stop)
-[17:18:30] [Server thread/INFO]: /save-all [flush]
-[17:18:30] [Server thread/INFO]: /save-off
-[17:18:30] [Server thread/INFO]: /save-on
-[17:18:30] [Server thread/INFO]: /setidletimeout <minutes>
-[17:18:30] [Server thread/INFO]: /stop
-[17:18:30] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[17:18:41] [Server thread/INFO]: teste was slain by Iron Golem
-[17:18:50] [Server thread/INFO]: <ElliWx> o gênio é um miseravel
-[17:26:06] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=926, y=41, z=-1090} gg{x=926, y=42, z=-1090}
-[17:26:06] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=926, y=41, z=-1090} gg{x=926, y=42, z=-1090}
-[17:26:06] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=926, y=41, z=-1090} gg{x=926, y=42, z=-1090}
-[17:26:06] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=926, y=39, z=-1090} gg{x=926, y=42, z=-1090}
-[17:26:07] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=927, y=39, z=-1093} gg{x=927, y=40, z=-1093}
-[17:26:07] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=927, y=40, z=-1094} gg{x=927, y=38, z=-1093}
-[17:30:05] [Server thread/INFO]: Villager bjr['Villager'/61231, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.30] died, message: 'Villager was squished too much'
-[17:38:43] [Server thread/INFO]: Villager bjr['Villager'/55834, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.30] died, message: 'Villager was squished too much'
-[17:41:07] [Server thread/INFO]: Villager bjr['Villager'/61220, l='ServerLevel[k]', x=972.70, y=61.05, z=-1055.30] died, message: 'Villager was squished too much'
-[17:45:54] [Server thread/INFO]: teste lost connection: Disconnected
-[17:45:54] [Server thread/INFO]: teste left the game
-[17:46:17] [Server thread/INFO]: Villager bjr['Villager'/55833, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.70] died, message: 'Villager was squished too much'
-[17:48:17] [Server thread/INFO]: Villager bjr['Villager'/61240, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.30] died, message: 'Villager was squished too much'
-[17:48:18] [Server thread/INFO]: ElliWx lost connection: Disconnected
-[17:48:18] [Server thread/INFO]: ElliWx left the game
-[18:17:06] [Server thread/INFO]: ElliWx[/26.90.121.19:65525] logged in with entity id 80664 at (930.5871366579349, 40.0, -1097.002234309281)
-[18:17:06] [Server thread/INFO]: ElliWx joined the game
-[18:20:34] [Server thread/INFO]: Villager bjr['Villager'/53627, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.30] died, message: 'Villager was squished too much'
-[18:33:58] [Server thread/INFO]: Villager bjr['Villager'/64061, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.30] died, message: 'Villager was squished too much'
-[18:36:03] [Server thread/INFO]: ElliWx lost connection: Disconnected
-[18:36:03] [Server thread/INFO]: ElliWx left the game
-[18:36:15] [Server thread/INFO]: teste[/26.90.121.19:55562] logged in with entity id 82934 at (925.2290840061236, 64.0, -1067.7062715159068)
-[18:36:15] [Server thread/INFO]: teste joined the game
-[18:36:19] [Server thread/INFO]: ElliWx[/26.90.121.19:55563] logged in with entity id 82978 at (972.6999999880791, 61.5, -1055.300000011921)
-[18:36:19] [Server thread/INFO]: ElliWx joined the game
-[18:38:15] [Server thread/INFO]: Villager bjr['Villager'/52214, l='ServerLevel[k]', x=972.70, y=61.05, z=-1055.30] died, message: 'Villager was slain by ElliWx'
-[18:38:18] [Server thread/INFO]: Villager bjr['Villager'/77049, l='ServerLevel[k]', x=972.70, y=61.05, z=-1055.30] died, message: 'Villager was slain by ElliWx'
-[18:38:19] [Server thread/INFO]: Villager bjr['Villager'/77044, l='ServerLevel[k]', x=972.70, y=61.05, z=-1055.30] died, message: 'Villager was slain by ElliWx'
-[18:38:23] [Server thread/INFO]: Villager bjr['Villager'/74015, l='ServerLevel[k]', x=972.70, y=61.05, z=-1055.70] died, message: 'Villager was slain by ElliWx'
-[18:38:25] [Server thread/INFO]: Villager bjr['Villager'/58576, l='ServerLevel[k]', x=972.70, y=61.05, z=-1055.70] died, message: 'Villager was slain by ElliWx'
-[18:38:27] [Server thread/INFO]: Villager bjr['Villager'/74038, l='ServerLevel[k]', x=972.70, y=61.05, z=-1055.70] died, message: 'Villager was slain by ElliWx'
-[18:39:02] [Server thread/INFO]: teste lost connection: Disconnected
-[18:39:02] [Server thread/INFO]: teste left the game
-[18:44:49] [Server thread/INFO]: ElliWx was slain by Iron Golem
-[18:50:33] [Server thread/INFO]: ElliWx was slain by Iron Golem
-[19:11:59] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=118, y=105, z=-203} gg{x=116, y=105, z=-203}
-[19:11:59] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=118, y=105, z=-203} gg{x=116, y=105, z=-203}
-[19:11:59] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=118, y=105, z=-203} gg{x=116, y=105, z=-203}
-[19:13:41] [Server thread/INFO]: <ElliWx> ZZzZzZzZz
-[19:14:44] [Server thread/INFO]: ElliWx lost connection: Disconnected
-[19:14:44] [Server thread/INFO]: ElliWx left the game
-[19:15:42] [Server thread/INFO]: Stopping server
-[19:15:42] [Server thread/INFO]: Saving players
-[19:15:42] [Server thread/INFO]: Saving worlds
-[19:15:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:overworld
-[19:15:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_nether
-[19:15:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_end
-[19:15:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:15:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:15:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:15:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:50:09] [Server thread/INFO]: Starting Minecraft server on 26.90.121.19:25565
+[18:50:09] [Server thread/INFO]: Using default channel type
+[18:50:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:50:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:50:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:50:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:50:10] [Server thread/INFO]: Preparing level "world"
+[18:50:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:50:10] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[18:50:10] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:50:11] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[18:50:11] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:50:12] [Worker-Main-8/INFO]: Preparing spawn area: 3%
+[18:50:12] [Worker-Main-10/INFO]: Preparing spawn area: 8%
+[18:50:13] [Worker-Main-9/INFO]: Preparing spawn area: 17%
+[18:50:13] [Worker-Main-8/INFO]: Preparing spawn area: 41%
+[18:50:14] [Worker-Main-14/INFO]: Preparing spawn area: 86%
+[18:50:15] [Server thread/INFO]: Time elapsed: 4759 ms
+[18:50:15] [Server thread/INFO]: Done (4.899s)! For help, type "help"
+[18:50:39] [Server thread/INFO]: ElliWx[/26.90.121.19:53647] logged in with entity id 204 at (-330.3692781463873, 66.0, -3574.0593917299816)
+[18:50:39] [Server thread/INFO]: ElliWx joined the game
+[19:00:45] [Server thread/INFO]: ElliWx has made the advancement [Best Friends Forever]
+[19:05:26] [Server thread/INFO]: ElliWx was slain by Spider
+[19:06:34] [Server thread/INFO]: ElliWx drowned
+[19:28:26] [Server thread/INFO]: ElliWx has made the advancement [What a Deal!]
+[19:28:51] [Server thread/INFO]: Villager bjr['Villager'/65, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.70] died, message: 'Villager was squished too much'
+[19:30:15] [Server thread/WARN]: ElliWx moved too quickly! -8.583979354611984,-2.343161733645715,-15.498783046994959
+[19:33:20] [Server thread/INFO]: Villager bjr['Villager'/70, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.30] died, message: 'Villager was squished too much'
+[19:42:30] [Server thread/INFO]: ElliWx has made the advancement [A Seedy Place]
+[19:49:19] [Server thread/INFO]: teste[/26.235.26.115:59747] logged in with entity id 68450 at (881.3641181509909, 66.0, -1059.4014272684587)
+[19:49:19] [Server thread/INFO]: teste joined the game
+[19:50:16] [Server thread/INFO]: <teste> zzzzzzzz
+[19:54:00] [Server thread/INFO]: <ElliWx> ZZzzZzZzZzZzZ
+[19:54:03] [Server thread/INFO]: <teste> zzzzzzz
+[19:56:31] [Server thread/INFO]: Villager bjr['Villager'/64, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.70] died, message: 'Villager was squished too much'
+[19:59:48] [Server thread/INFO]: ElliWx has made the advancement [Suit Up]
+[20:05:17] [Server thread/INFO]: ElliWx lost connection: Disconnected
+[20:05:17] [Server thread/INFO]: ElliWx left the game
+[20:05:19] [Server thread/INFO]: teste lost connection: Disconnected
+[20:05:19] [Server thread/INFO]: teste left the game
+[20:05:24] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:05:24] [Server thread/INFO]: EXIT<--[HERE]
+[20:05:25] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[20:05:25] [Server thread/INFO]: quit<--[HERE]
+[20:05:27] [Server thread/INFO]: Stopping server
+[20:05:27] [Server thread/INFO]: Saving players
+[20:05:27] [Server thread/INFO]: Saving worlds
+[20:05:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:overworld
+[20:05:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_nether
+[20:05:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_end
+[20:05:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:05:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:05:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:05:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
