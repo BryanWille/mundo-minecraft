@@ -575,6 +575,7 @@
       "minecraft:piglin": "2021-09-28 12:34:13 -0300",
       "minecraft:enderman": "2021-10-02 13:41:11 -0300",
       "minecraft:silverfish": "2021-10-02 14:26:04 -0300",
+      "minecraft:endermite": "2021-10-08 17:20:43 -0300",
       "minecraft:zombie": "2021-09-28 12:52:29 -0300",
       "minecraft:drowned": "2021-09-28 12:57:33 -0300",
       "minecraft:zombie_villager": "2021-09-28 13:34:41 -0300"
@@ -1238,6 +1239,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2021-10-08 17:59:37 -0300"
+    },
+    "done": true
+  },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2021-09-28 12:29:31 -0300",
@@ -1566,6 +1573,7 @@
       "potato": "2021-09-30 13:54:37 -0300",
       "poisonous_potato": "2021-09-28 13:04:25 -0300",
       "mutton": "2021-10-02 13:35:56 -0300",
+      "bread": "2021-10-08 17:19:13 -0300",
       "cooked_salmon": "2021-09-28 13:34:15 -0300"
     },
     "done": false
@@ -2008,6 +2016,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2021-10-08 17:48:26 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_glass": "2021-09-28 11:59:04 -0300"
@@ -2203,6 +2217,12 @@
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2021-09-30 15:19:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2021-10-08 17:59:37 -0300"
     },
     "done": true
   },
@@ -2509,6 +2529,12 @@
   "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
       "has_glow_ink_sac": "2021-09-30 15:21:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_carved_pumpkin": "2021-10-08 17:48:26 -0300"
     },
     "done": true
   },
