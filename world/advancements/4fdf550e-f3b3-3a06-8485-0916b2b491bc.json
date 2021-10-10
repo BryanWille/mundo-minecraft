@@ -347,6 +347,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2021-10-10 19:03:45 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine_stairs": {
     "criteria": {
       "has_prismarine": "2021-09-28 13:04:12 -0300"
@@ -476,6 +482,12 @@
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_sand": "2021-08-21 18:13:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2021-10-10 19:03:45 -0300"
     },
     "done": true
   },
@@ -1228,6 +1240,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2021-10-10 19:03:45 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
       "has_planks": "2021-08-21 18:08:47 -0300"
@@ -1651,6 +1669,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2021-10-10 19:03:45 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_horse_armor": "2021-08-21 17:51:14 -0300"
@@ -1792,6 +1816,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2021-08-23 19:19:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2021-10-10 19:03:45 -0300"
     },
     "done": true
   },
@@ -2103,6 +2133,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2021-10-10 19:03:45 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-08-21 17:10:33 -0300"
@@ -2220,6 +2256,12 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2021-08-22 20:10:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2021-10-10 19:03:45 -0300"
     },
     "done": true
   },
@@ -2691,6 +2733,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2021-10-10 19:03:45 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_sand": "2021-08-21 18:13:38 -0300"
@@ -2985,6 +3033,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2021-10-10 19:03:45 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/warped_sign": {
     "criteria": {
       "has_planks": "2021-08-23 20:24:52 -0300"
@@ -3006,6 +3060,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2021-08-23 19:31:31 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2021-10-10 19:03:45 -0300"
     },
     "done": true
   },
@@ -3036,6 +3096,12 @@
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2021-08-21 18:35:48 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2021-10-10 19:03:45 -0300"
     },
     "done": true
   },

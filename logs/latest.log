@@ -1,17 +1,17 @@
-[12:48:13] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:48:13] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:48:13] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:48:13] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:48:13] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[12:48:13] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[12:48:13] [main/INFO]: Reloading ResourceManager: Default
-[12:48:15] [Worker-Main-10/INFO]: Loaded 7 recipes
-[12:48:15] [Worker-Main-10/INFO]: Loaded 1137 advancements
-[12:48:18] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[12:48:18] [Server thread/INFO]: Loading properties
-[12:48:18] [Server thread/INFO]: Default game type: SURVIVAL
-[12:48:18] [Server thread/INFO]: Generating keypair
-[12:48:18] [Server console handler/ERROR]: Exception handling console input
+[18:39:03] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:39:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:39:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:39:03] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:39:03] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:39:03] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:39:03] [main/INFO]: Reloading ResourceManager: Default
+[18:39:04] [Worker-Main-13/INFO]: Loaded 7 recipes
+[18:39:05] [Worker-Main-13/INFO]: Loaded 1137 advancements
+[18:39:07] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[18:39:07] [Server thread/INFO]: Loading properties
+[18:39:07] [Server thread/INFO]: Default game type: SURVIVAL
+[18:39:07] [Server thread/INFO]: Generating keypair
+[18:39:07] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Identificador inválido
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:271) ~[?:?]
@@ -25,112 +25,57 @@ java.io.IOException: Identificador inválido
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at aas$1.run(SourceFile:101) [server.jar:?]
-[12:48:18] [Server thread/INFO]: Starting Minecraft server on 26.90.121.19:25565
-[12:48:18] [Server thread/INFO]: Using default channel type
-[12:48:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:48:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:48:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:48:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:48:18] [Server thread/INFO]: Preparing level "world"
-[12:48:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:48:19] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[12:48:19] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[12:48:20] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[12:48:20] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[12:48:21] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[12:48:21] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[12:48:22] [Worker-Main-9/INFO]: Preparing spawn area: 2%
-[12:48:22] [Worker-Main-10/INFO]: Preparing spawn area: 4%
-[12:48:23] [Worker-Main-12/INFO]: Preparing spawn area: 6%
-[12:48:23] [Worker-Main-14/INFO]: Preparing spawn area: 19%
-[12:48:24] [Worker-Main-9/INFO]: Preparing spawn area: 36%
-[12:48:24] [Worker-Main-13/INFO]: Preparing spawn area: 62%
-[12:48:25] [Worker-Main-12/INFO]: Preparing spawn area: 87%
-[12:48:26] [Server thread/INFO]: Time elapsed: 7264 ms
-[12:48:26] [Server thread/INFO]: Done (7.415s)! For help, type "help"
-[12:48:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2072ms or 41 ticks behind
-[12:49:12] [Server thread/INFO]: adrianogomide[/26.144.94.87:61232] logged in with entity id 400 at (935.8687652899238, 63.0, -1016.6999999880791)
-[12:49:12] [Server thread/INFO]: adrianogomide joined the game
-[12:49:38] [Server thread/INFO]: ElliWx[/26.90.121.19:58624] logged in with entity id 475 at (924.2957174182701, 68.0, -1064.8151385448982)
-[12:49:38] [Server thread/INFO]: ElliWx joined the game
-[12:50:02] [Server thread/INFO]: teste[/26.235.26.115:51529] logged in with entity id 564 at (883.3555374056884, 67.875, -1062.028668087165)
-[12:50:02] [Server thread/INFO]: teste joined the game
-[12:55:38] [Server thread/INFO]: Villager bjr['Villager'/169, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.30] died, message: 'Villager was squished too much'
-[12:55:56] [Server thread/INFO]: Villager bjr['Villager'/168, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.30] died, message: 'Villager was squished too much'
-[12:59:34] [Server thread/INFO]: ElliWx has made the advancement [Not Today, Thank You]
-[13:02:02] [Server thread/INFO]: Villager bjr['Villager'/173, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.30] died, message: 'Villager was squished too much'
-[13:02:34] [Server thread/INFO]: adrianogomide lost connection: Disconnected
-[13:02:34] [Server thread/INFO]: adrianogomide left the game
-[13:03:07] [Server thread/INFO]: adrianogomide[/26.144.94.87:60745] logged in with entity id 6981 at (934.0995784911355, 63.0, -1016.4644696089075)
-[13:03:07] [Server thread/INFO]: adrianogomide joined the game
-[13:04:43] [Server thread/INFO]: ElliWx was slain by adrianogomide
-[13:06:14] [Server thread/INFO]: Villager bjr['Villager'/179, l='ServerLevel[k]', x=969.62, y=63.00, z=-1055.83] died, message: 'Villager was slain by adrianogomide'
-[13:06:14] [Server thread/INFO]: Villager bjr['Villager'/174, l='ServerLevel[k]', x=969.44, y=64.00, z=-1054.69] died, message: 'Villager was slain by adrianogomide'
-[13:06:18] [Server thread/INFO]: Villager bjr['Villager'/189, l='ServerLevel[k]', x=970.30, y=63.75, z=-1050.60] died, message: 'Villager was burnt to a crisp whilst fighting adrianogomide'
-[13:06:19] [Server thread/INFO]: Villager bjr['Villager'/176, l='ServerLevel[k]', x=970.30, y=63.00, z=-1052.32] died, message: 'Villager was slain by adrianogomide'
-[13:06:19] [Server thread/INFO]: Villager bjr['Villager'/183, l='ServerLevel[k]', x=959.34, y=64.00, z=-1063.60] died, message: 'Villager burned to death'
-[13:06:20] [Server thread/INFO]: Villager bjr['Villager'/186, l='ServerLevel[k]', x=972.70, y=63.19, z=-1055.46] died, message: 'Villager was slain by adrianogomide'
-[13:06:23] [Server thread/INFO]: Villager bjr['Villager'/177, l='ServerLevel[k]', x=952.52, y=64.00, z=-1059.47] died, message: 'Villager was slain by ElliWx'
-[13:06:23] [Server thread/INFO]: Villager bjr['Villager'/180, l='ServerLevel[k]', x=969.41, y=63.00, z=-1062.08] died, message: 'Villager was slain by adrianogomide'
-[13:06:25] [Server thread/INFO]: Villager bjr['Villager'/182, l='ServerLevel[k]', x=958.68, y=64.00, z=-1063.50] died, message: 'Villager was slain by adrianogomide'
-[13:06:27] [Server thread/INFO]: Villager bjr['Villager'/192, l='ServerLevel[k]', x=951.50, y=70.00, z=-1054.70] died, message: 'Villager was slain by ElliWx'
-[13:06:29] [Server thread/INFO]: Villager bjr['Villager'/184, l='ServerLevel[k]', x=952.10, y=71.00, z=-1053.52] died, message: 'Villager was slain by ElliWx'
-[13:06:33] [Server thread/INFO]: Villager bjr['Villager'/175, l='ServerLevel[k]', x=983.21, y=62.49, z=-1059.44] died, message: 'Villager was slain by adrianogomide'
-[13:06:35] [Server thread/INFO]: Villager bjr['Villager'/167, l='ServerLevel[k]', x=986.71, y=65.00, z=-1061.38] died, message: 'Villager was slain by adrianogomide'
-[13:06:37] [Server thread/INFO]: Villager bjr['Villager'/181, l='ServerLevel[k]', x=985.32, y=62.16, z=-1062.50] died, message: 'Villager was slain by adrianogomide'
-[13:06:38] [Server thread/INFO]: Villager bjr['Villager'/166, l='ServerLevel[k]', x=987.24, y=62.46, z=-1067.68] died, message: 'Villager was slain by adrianogomide'
-[13:06:46] [Server thread/INFO]: Villager bjr['Villager'/178, l='ServerLevel[k]', x=985.54, y=66.17, z=-1053.28] died, message: 'Villager was slain by adrianogomide'
-[13:06:49] [Server thread/INFO]: Villager bjr['Villager'/171, l='ServerLevel[k]', x=980.33, y=62.52, z=-1053.09] died, message: 'Villager was slain by adrianogomide'
-[13:06:49] [Server thread/INFO]: Villager bjr['Villager'/172, l='ServerLevel[k]', x=971.56, y=70.17, z=-1034.72] died, message: 'Villager was slain by ElliWx'
-[13:06:50] [Server thread/INFO]: Villager bjr['Villager'/170, l='ServerLevel[k]', x=981.26, y=62.53, z=-1055.58] died, message: 'Villager was slain by adrianogomide'
-[13:06:54] [Server thread/INFO]: Villager bjr['Villager'/187, l='ServerLevel[k]', x=969.53, y=66.25, z=-1051.23] died, message: 'Villager was slain by ElliWx'
-[13:07:10] [Server thread/INFO]: Villager bjr['Villager'/190, l='ServerLevel[k]', x=969.29, y=64.00, z=-1058.38] died, message: 'Villager was slain by ElliWx'
-[13:07:13] [Server thread/INFO]: Villager bjr['Villager'/191, l='ServerLevel[k]', x=965.04, y=72.00, z=-1043.51] died, message: 'Villager was slain by adrianogomide'
-[13:07:29] [Server thread/INFO]: Villager bjr['Farmer'/110, l='ServerLevel[k]', x=955.42, y=66.00, z=-1045.09] died, message: 'Farmer was slain by adrianogomide'
-[13:08:02] [Server thread/INFO]: ElliWx was slain by teste
-[13:09:04] [Server thread/INFO]: Villager bjr['Farmer'/193, l='ServerLevel[k]', x=963.87, y=66.00, z=-1044.62] died, message: 'Farmer was slain by adrianogomide'
-[13:09:24] [Server thread/INFO]: Villager bjr['Farmer'/109, l='ServerLevel[k]', x=954.78, y=66.56, z=-1055.69] died, message: 'Farmer was slain by adrianogomide'
-[13:09:27] [Server thread/INFO]: Villager bjr['Farmer'/114, l='ServerLevel[k]', x=957.59, y=66.58, z=-1056.54] died, message: 'Farmer was slain by adrianogomide'
-[13:09:30] [Server thread/INFO]: Villager bjr['Farmer'/200, l='ServerLevel[k]', x=964.33, y=66.56, z=-1055.53] died, message: 'Farmer was slain by adrianogomide'
-[13:09:33] [Server thread/INFO]: Villager bjr['Farmer'/198, l='ServerLevel[k]', x=962.62, y=66.56, z=-1056.68] died, message: 'Farmer was slain by adrianogomide'
-[13:10:03] [Server thread/INFO]: Villager bjr['Villager'/185, l='ServerLevel[k]', x=981.42, y=61.93, z=-1055.16] died, message: 'Villager was slain by adrianogomide'
-[13:10:46] [Server thread/INFO]: Villager bjr['Villager'/6475, l='ServerLevel[k]', x=973.15, y=63.00, z=-1054.50] died, message: 'Villager was slain by adrianogomide'
-[13:11:01] [Server thread/INFO]: Villager bjr['Villager'/6559, l='ServerLevel[k]', x=971.27, y=58.00, z=-1055.55] died, message: 'Villager was slain by adrianogomide'
-[13:11:24] [Server thread/INFO]: adrianogomide was slain by Iron Golem
-[13:16:06] [Server thread/WARN]: adrianogomide was kicked for floating too long!
-[13:16:06] [Server thread/INFO]: adrianogomide lost connection: Flying is not enabled on this server
-[13:16:06] [Server thread/INFO]: adrianogomide left the game
-[13:16:06] [Server thread/WARN]: handleDisconnection() called twice
-[13:16:26] [Server thread/INFO]: adrianogomide[/26.144.94.87:58956] logged in with entity id 11861 at (938.8002036833819, 50.9590004963616, -1093.0759870026714)
-[13:16:26] [Server thread/INFO]: adrianogomide joined the game
-[13:27:21] [Server thread/WARN]: Boat (vehicle of adrianogomide) moved wrongly! 0.27586174396310525
-[13:27:46] [Server thread/INFO]: <teste> zzzzz
-[13:31:11] [Server thread/INFO]: Villager bjr['Villager'/159, l='ServerLevel[k]', x=931.32, y=41.98, z=-1101.44] died, message: 'Villager tried to swim in lava to escape ElliWx'
-[13:44:46] [Server thread/INFO]: Kicked adrianogomide: Kicked by an operator
-[13:44:46] [Server thread/INFO]: adrianogomide lost connection: Kicked by an operator
-[13:44:46] [Server thread/INFO]: adrianogomide left the game
-[13:44:55] [Server thread/INFO]: adrianogomide[/26.144.94.87:51673] logged in with entity id 22414 at (99.47098580899154, 61.0, 298.6141740689006)
-[13:44:55] [Server thread/INFO]: adrianogomide joined the game
-[13:57:58] [Server thread/INFO]: teste lost connection: Disconnected
-[13:57:58] [Server thread/INFO]: teste left the game
-[14:01:06] [Server thread/INFO]: adrianogomide lost connection: Disconnected
-[14:01:06] [Server thread/INFO]: adrianogomide left the game
-[14:04:36] [Server thread/INFO]: <ElliWx> 5600 1600
-[14:08:29] [Server thread/WARN]: ElliWx moved too quickly! 12.971066465245713,-1.9149177543652058,12.929116919121043
-[14:09:56] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=0, y=0, z=0} gg{x=5678, y=62, z=1702}
-[14:09:57] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=0, y=0, z=0} gg{x=5678, y=62, z=1702}
-[14:09:57] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=0, y=0, z=0} gg{x=5678, y=62, z=1702}
-[14:09:57] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=0, y=0, z=0} gg{x=5678, y=62, z=1702}
-[14:11:39] [Server thread/INFO]: ElliWx was impaled by Drowned
-[14:11:46] [Server thread/INFO]: ElliWx lost connection: Disconnected
-[14:11:46] [Server thread/INFO]: ElliWx left the game
-[14:11:49] [Server thread/INFO]: Stopping server
-[14:11:49] [Server thread/INFO]: Saving players
-[14:11:49] [Server thread/INFO]: Saving worlds
-[14:11:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:overworld
-[14:11:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_nether
-[14:11:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_end
-[14:11:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:11:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:11:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:11:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:39:07] [Server thread/INFO]: Starting Minecraft server on 26.90.121.19:25565
+[18:39:07] [Server thread/INFO]: Using default channel type
+[18:39:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:39:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:39:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:39:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:39:08] [Server thread/INFO]: Preparing level "world"
+[18:39:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:39:08] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[18:39:08] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[18:39:09] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[18:39:09] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[18:39:10] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[18:39:10] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[18:39:11] [Worker-Main-13/INFO]: Preparing spawn area: 23%
+[18:39:11] [Worker-Main-14/INFO]: Preparing spawn area: 29%
+[18:39:12] [Worker-Main-13/INFO]: Preparing spawn area: 75%
+[18:39:13] [Server thread/INFO]: Time elapsed: 5066 ms
+[18:39:13] [Server thread/INFO]: Done (5.229s)! For help, type "help"
+[18:39:18] [Server thread/INFO]: ElliWx[/26.90.121.19:62696] logged in with entity id 201 at (5708.288523722391, 61.19690392765404, 1725.699999988079)
+[18:39:18] [Server thread/INFO]: ElliWx joined the game
+[18:40:03] [Server thread/INFO]: teste[/26.235.26.115:57332] logged in with entity id 621 at (100.04247882704726, 49.0, -2.89273017615639)
+[18:40:03] [Server thread/INFO]: teste joined the game
+[18:41:09] [Server thread/INFO]: ElliWx lost connection: Disconnected
+[18:41:09] [Server thread/INFO]: ElliWx left the game
+[18:42:01] [Server thread/INFO]: adrianogomide[/26.90.121.19:60582] logged in with entity id 1270 at (884.6115393997899, 64.0, -1049.1041831245557)
+[18:42:01] [Server thread/INFO]: adrianogomide joined the game
+[18:53:04] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=5672, y=64, z=1688} gg{x=5674, y=62, z=1691}
+[18:59:14] [Server thread/WARN]: adrianogomide moved too quickly! -15.665763320622318,-2.1539585340596545,-7.3451307583797245
+[19:00:55] [Server thread/INFO]: adrianogomide lost connection: Disconnected
+[19:00:55] [Server thread/INFO]: adrianogomide left the game
+[19:01:03] [Server thread/INFO]: ElliWx[/26.90.121.19:60687] logged in with entity id 16694 at (879.3090959911987, 66.0, -1060.5870315530524)
+[19:01:03] [Server thread/INFO]: ElliWx joined the game
+[19:02:45] [Server thread/INFO]: adrianogomide[/26.90.121.19:56464] logged in with entity id 17038 at (880.1566370566607, 64.0, -1044.3126761824149)
+[19:02:45] [Server thread/INFO]: adrianogomide joined the game
+[19:02:56] [Server thread/INFO]: adrianogomide lost connection: Disconnected
+[19:02:56] [Server thread/INFO]: adrianogomide left the game
+[19:17:08] [Server thread/WARN]: Boat (vehicle of teste) moved wrongly! 0.3685396675350603
+[19:17:08] [Server thread/WARN]: Boat (vehicle of teste) moved wrongly! 0.2504187148620076
+[19:17:08] [Server thread/WARN]: Boat (vehicle of teste) moved wrongly! 0.2781577128553181
+[19:17:40] [Server thread/INFO]: teste lost connection: Disconnected
+[19:17:40] [Server thread/INFO]: teste left the game
+[19:18:19] [Server thread/INFO]: ElliWx lost connection: Disconnected
+[19:18:19] [Server thread/INFO]: ElliWx left the game
+[19:18:39] [Server thread/INFO]: Stopping server
+[19:18:39] [Server thread/INFO]: Saving players
+[19:18:39] [Server thread/INFO]: Saving worlds
+[19:18:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:overworld
+[19:18:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_nether
+[19:18:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_end
+[19:18:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:18:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:18:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:18:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -2718,6 +2718,7 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
+      "textures/entity/cat/tabby.png": "2021-10-10 19:04:59 -0300",
       "textures/entity/cat/jellie.png": "2021-10-07 19:00:45 -0300",
       "textures/entity/cat/british_shorthair.png": "2021-10-09 21:12:58 -0300"
     },

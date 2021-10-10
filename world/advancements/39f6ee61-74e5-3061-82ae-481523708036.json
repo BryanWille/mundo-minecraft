@@ -985,11 +985,21 @@
       "minecraft:taiga": "2021-09-25 13:01:56 -0300",
       "minecraft:deep_cold_ocean": "2021-10-09 20:53:59 -0300",
       "minecraft:taiga_hills": "2021-09-25 13:00:10 -0300",
+      "minecraft:desert": "2021-10-10 18:49:49 -0300",
+      "minecraft:deep_frozen_ocean": "2021-10-10 18:50:05 -0300",
       "minecraft:birch_forest": "2021-09-25 13:02:23 -0300",
+      "minecraft:badlands": "2021-10-10 18:49:15 -0300",
       "minecraft:beach": "2021-09-25 12:58:55 -0300",
+      "minecraft:dark_forest": "2021-10-10 18:48:08 -0300",
       "minecraft:river": "2021-09-25 12:57:40 -0300",
+      "minecraft:lukewarm_ocean": "2021-10-10 18:57:37 -0300",
       "minecraft:wooded_mountains": "2021-10-09 21:13:47 -0300",
-      "minecraft:stone_shore": "2021-09-25 12:58:19 -0300"
+      "minecraft:wooded_hills": "2021-10-10 18:46:34 -0300",
+      "minecraft:stone_shore": "2021-09-25 12:58:19 -0300",
+      "minecraft:wooded_badlands_plateau": "2021-10-10 18:49:20 -0300",
+      "minecraft:swamp": "2021-10-10 18:48:17 -0300",
+      "minecraft:savanna": "2021-10-10 18:50:00 -0300",
+      "minecraft:plains": "2021-10-10 18:46:56 -0300"
     },
     "done": false
   },
@@ -1032,6 +1042,12 @@
   "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2021-09-30 12:40:51 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2021-10-10 18:43:27 -0300"
     },
     "done": true
   },
@@ -1866,6 +1882,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-09-25 13:11:46 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2021-10-10 18:51:19 -0300"
     },
     "done": true
   },
