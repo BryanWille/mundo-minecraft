@@ -1,17 +1,17 @@
-[17:10:48] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:10:49] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:10:49] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:10:49] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17:10:49] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17:10:49] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:10:49] [main/INFO]: Reloading ResourceManager: Default
-[17:10:50] [Worker-Main-10/INFO]: Loaded 7 recipes
-[17:10:50] [Worker-Main-10/INFO]: Loaded 1137 advancements
-[17:10:52] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[17:10:52] [Server thread/INFO]: Loading properties
-[17:10:52] [Server thread/INFO]: Default game type: SURVIVAL
-[17:10:52] [Server thread/INFO]: Generating keypair
-[17:10:52] [Server console handler/ERROR]: Exception handling console input
+[20:34:43] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:34:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:34:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:34:43] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:34:43] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:34:43] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:34:43] [main/INFO]: Reloading ResourceManager: Default
+[20:34:44] [Worker-Main-10/INFO]: Loaded 7 recipes
+[20:34:45] [Worker-Main-10/INFO]: Loaded 1137 advancements
+[20:34:47] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[20:34:47] [Server thread/INFO]: Loading properties
+[20:34:47] [Server thread/INFO]: Default game type: SURVIVAL
+[20:34:47] [Server thread/INFO]: Generating keypair
+[20:34:47] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Identificador inválido
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:271) ~[?:?]
@@ -25,51 +25,65 @@ java.io.IOException: Identificador inválido
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at aas$1.run(SourceFile:101) [server.jar:?]
-[17:10:53] [Server thread/INFO]: Starting Minecraft server on 26.90.121.19:25565
-[17:10:53] [Server thread/INFO]: Using default channel type
-[17:10:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:10:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:10:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:10:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:10:53] [Server thread/INFO]: Preparing level "world"
-[17:10:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:10:54] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[17:10:54] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[17:10:54] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[17:10:55] [Worker-Main-8/INFO]: Preparing spawn area: 0%
-[17:10:55] [Worker-Main-11/INFO]: Preparing spawn area: 1%
-[17:10:56] [Worker-Main-13/INFO]: Preparing spawn area: 4%
-[17:10:56] [Worker-Main-11/INFO]: Preparing spawn area: 15%
-[17:10:57] [Worker-Main-12/INFO]: Preparing spawn area: 26%
-[17:10:57] [Worker-Main-11/INFO]: Preparing spawn area: 51%
-[17:10:58] [Worker-Main-10/INFO]: Preparing spawn area: 92%
-[17:10:59] [Server thread/INFO]: Time elapsed: 5495 ms
-[17:10:59] [Server thread/INFO]: Done (5.648s)! For help, type "help"
-[17:11:22] [Server thread/INFO]: ElliWx[/26.90.121.19:49514] logged in with entity id 348 at (921.7851355035651, 63.0, -1055.9506517639081)
-[17:11:22] [Server thread/INFO]: ElliWx joined the game
-[17:14:33] [Server thread/INFO]: teste[/26.235.26.115:51055] logged in with entity id 1032 at (919.0939008962379, 63.0, -1056.723991231891)
-[17:14:33] [Server thread/INFO]: teste joined the game
-[17:15:42] [Server thread/INFO]: Villager bjr['Villager'/143, l='ServerLevel[k]', x=972.70, y=61.05, z=-1055.30] died, message: 'Villager was squished too much'
-[17:27:35] [Server thread/INFO]: Villager bjr['Villager'/138, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.70] died, message: 'Villager was squished too much'
-[17:31:00] [Server thread/WARN]: teste moved too quickly! -17.244414927210983,-1.7965895644154415,-5.342641726355282
-[17:34:26] [Server thread/WARN]: ElliWx moved too quickly! -791.9059314820684,17.57081095581396,1550.7892354072092
-[17:37:37] [Server thread/INFO]: teste was slain by Enderman
-[17:38:28] [Server thread/INFO]: Villager bjr['Villager'/137, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.70] died, message: 'Villager was squished too much'
-[17:41:41] [Server thread/INFO]: Villager bjr['Villager'/145, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.30] died, message: 'Villager was squished too much'
-[17:42:43] [Server thread/INFO]: Villager bjr['Villager'/134, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.70] died, message: 'Villager was squished too much'
-[17:44:33] [Server thread/INFO]: <teste> -21 1003
-[17:51:59] [Server thread/INFO]: teste fell out of the world
-[18:01:19] [Server thread/INFO]: teste lost connection: Disconnected
-[18:01:19] [Server thread/INFO]: teste left the game
-[18:01:21] [Server thread/INFO]: ElliWx lost connection: Disconnected
-[18:01:21] [Server thread/INFO]: ElliWx left the game
-[18:04:15] [Server thread/INFO]: Stopping server
-[18:04:15] [Server thread/INFO]: Saving players
-[18:04:15] [Server thread/INFO]: Saving worlds
-[18:04:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:overworld
-[18:04:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_nether
-[18:04:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_end
-[18:04:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:04:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:04:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:04:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:34:47] [Server thread/INFO]: Starting Minecraft server on 26.90.121.19:25565
+[20:34:47] [Server thread/INFO]: Using default channel type
+[20:34:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:34:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:34:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:34:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:34:48] [Server thread/INFO]: Preparing level "world"
+[20:34:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:34:49] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[20:34:49] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[20:34:49] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[20:34:50] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[20:34:50] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[20:34:51] [Worker-Main-11/INFO]: Preparing spawn area: 2%
+[20:34:51] [Worker-Main-8/INFO]: Preparing spawn area: 4%
+[20:34:52] [Worker-Main-14/INFO]: Preparing spawn area: 6%
+[20:34:52] [Worker-Main-11/INFO]: Preparing spawn area: 14%
+[20:34:53] [Worker-Main-12/INFO]: Preparing spawn area: 40%
+[20:34:53] [Worker-Main-8/INFO]: Preparing spawn area: 55%
+[20:34:54] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[20:34:55] [Server thread/INFO]: Time elapsed: 7006 ms
+[20:34:55] [Server thread/INFO]: Done (7.242s)! For help, type "help"
+[20:34:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2150ms or 43 ticks behind
+[20:35:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2357ms or 47 ticks behind
+[20:35:28] [Server thread/INFO]: ElliWx[/26.90.121.19:52396] logged in with entity id 355 at (916.4265278589918, 63.0, -1043.6350982119654)
+[20:35:29] [Server thread/INFO]: ElliWx joined the game
+[20:36:29] [Server thread/INFO]: teste[/26.235.26.115:57419] logged in with entity id 618 at (912.3390876734868, 63.0, -1050.1850094472616)
+[20:36:29] [Server thread/INFO]: teste joined the game
+[20:37:34] [Server thread/INFO]: adrianogomide[/26.144.94.87:62846] logged in with entity id 879 at (944.1070491894354, 64.0, -1067.8520798529235)
+[20:37:34] [Server thread/INFO]: adrianogomide joined the game
+[20:40:50] [Server thread/INFO]: Villager bjr['Villager'/123, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.70] died, message: 'Villager was squished too much'
+[20:47:07] [Server thread/INFO]: <ElliWx> perae mane
+[20:49:25] [Server thread/INFO]: <ElliWx> to no fim
+[20:50:07] [Server thread/INFO]: Villager bjr['Villager'/125, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.70] died, message: 'Villager was squished too much'
+[20:51:06] [Server thread/INFO]: <ElliWx> tartaruga étecu na minha beluga
+[20:51:40] [Server thread/INFO]: <ElliWx> peitoral god
+[20:54:44] [Server thread/INFO]: adrianogomide has made the advancement [The End?]
+[20:57:55] [Server thread/INFO]: adrianogomide has made the advancement [Remote Getaway]
+[21:13:14] [Server thread/INFO]: Villager bjr['Villager'/126, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.70] died, message: 'Villager was squished too much'
+[21:13:16] [Server thread/INFO]: Villager bjr['Villager'/128, l='ServerLevel[k]', x=972.30, y=61.05, z=-1055.70] died, message: 'Villager was squished too much'
+[21:20:15] [Server thread/INFO]: adrianogomide was slain by ElliWx
+[21:20:38] [Server thread/WARN]: ElliWx moved too quickly! -4.426489629078219,-60.0,-7.9106815984882815
+[21:22:15] [Server thread/INFO]: teste was slain by ElliWx
+[21:24:17] [Server thread/WARN]: adrianogomide moved too quickly! 5.2305992002116,-2.216819229865493,9.030567253376034
+[21:24:21] [Server thread/INFO]: ElliWx lost connection: Disconnected
+[21:24:21] [Server thread/INFO]: ElliWx left the game
+[21:24:28] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[21:24:28] [Server thread/INFO]: quit<--[HERE]
+[21:24:29] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[21:24:29] [Server thread/INFO]: exit<--[HERE]
+[21:24:30] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[21:24:30] [Server thread/INFO]: close<--[HERE]
+[21:24:32] [Server thread/INFO]: Stopping server
+[21:24:32] [Server thread/INFO]: Saving players
+[21:24:32] [Server thread/INFO]: Saving worlds
+[21:24:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:overworld
+[21:24:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_nether
+[21:24:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_end
+[21:24:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:24:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:24:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:24:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

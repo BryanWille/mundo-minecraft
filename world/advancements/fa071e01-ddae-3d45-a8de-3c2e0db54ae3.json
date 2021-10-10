@@ -810,6 +810,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2021-10-09 21:22:19 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2021-09-28 11:59:04 -0300"
@@ -1485,6 +1491,12 @@
   "minecraft:recipes/building_blocks/cyan_wool": {
     "criteria": {
       "has_white_wool": "2021-09-28 13:47:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2021-10-09 21:12:10 -0300"
     },
     "done": true
   },
@@ -2600,7 +2612,8 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "textures/entity/cat/jellie.png": "2021-10-07 19:00:45 -0300"
+      "textures/entity/cat/jellie.png": "2021-10-07 19:00:45 -0300",
+      "textures/entity/cat/british_shorthair.png": "2021-10-09 21:12:58 -0300"
     },
     "done": false
   },
@@ -2655,6 +2668,12 @@
   "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-09-28 12:07:15 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2021-10-09 21:12:10 -0300"
     },
     "done": true
   },
