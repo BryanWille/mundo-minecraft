@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2021-10-10 13:09:12 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2021-09-30 13:07:59 -0300"
@@ -221,6 +227,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2021-10-10 13:17:45 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2021-09-30 12:48:34 -0300"
@@ -404,6 +416,12 @@
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_boots": "2021-10-07 19:59:48 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2021-10-10 13:09:12 -0300"
     },
     "done": true
   },
@@ -594,6 +612,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2021-10-10 13:17:05 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2021-09-28 13:46:20 -0300"
@@ -762,6 +786,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2021-10-10 12:55:50 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2021-09-28 12:24:48 -0300"
@@ -822,6 +852,12 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2021-10-10 12:59:34 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_wool": {
     "criteria": {
       "has_white_wool": "2021-09-28 13:47:11 -0300"
@@ -861,6 +897,12 @@
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2021-09-25 14:06:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2021-10-10 12:59:02 -0300"
     },
     "done": true
   },
@@ -1143,6 +1185,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2021-10-10 12:55:50 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2021-09-28 12:34:59 -0300"
@@ -1323,6 +1371,12 @@
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2021-10-02 10:54:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2021-10-10 12:55:50 -0300"
     },
     "done": true
   },
@@ -1524,6 +1578,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2021-10-10 13:09:12 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_obsidian": "2021-09-28 12:27:04 -0300"
@@ -1581,11 +1641,15 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "chorus_fruit": "2021-09-30 18:38:35 -0300",
+      "cooked_beef": "2021-10-10 13:35:00 -0300",
       "baked_potato": "2021-09-25 14:11:14 -0300",
       "potato": "2021-09-30 13:54:37 -0300",
       "poisonous_potato": "2021-09-28 13:04:25 -0300",
       "mutton": "2021-10-02 13:35:56 -0300",
       "bread": "2021-10-08 17:19:13 -0300",
+      "rotten_flesh": "2021-10-10 13:11:35 -0300",
+      "glow_berries": "2021-10-10 13:15:07 -0300",
+      "cod": "2021-10-10 13:11:32 -0300",
       "cooked_salmon": "2021-09-28 13:34:15 -0300"
     },
     "done": false
@@ -1737,6 +1801,12 @@
   "minecraft:recipes/building_blocks/smooth_sandstone": {
     "criteria": {
       "has_sandstone": "2021-09-28 13:16:48 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2021-10-10 13:09:12 -0300"
     },
     "done": true
   },
@@ -1953,6 +2023,12 @@
   "minecraft:recipes/transportation/activator_rail": {
     "criteria": {
       "has_rail": "2021-09-28 12:04:41 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2021-10-10 12:59:02 -0300"
     },
     "done": true
   },
@@ -2412,6 +2488,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2021-10-10 13:04:11 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2021-09-28 12:33:24 -0300"
@@ -2442,6 +2524,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2021-10-10 13:09:12 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2021-09-28 13:48:39 -0300"
@@ -2451,6 +2539,12 @@
   "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
     "criteria": {
       "has_mossy_stone_bricks": "2021-10-02 14:10:31 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2021-10-10 13:17:05 -0300"
     },
     "done": true
   },
@@ -2550,6 +2644,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2021-10-10 13:09:12 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2021-09-28 12:20:19 -0300"
@@ -2583,6 +2683,12 @@
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_granite": "2021-09-28 12:25:47 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2021-10-10 13:14:42 -0300"
     },
     "done": true
   },
@@ -2632,6 +2738,18 @@
   "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2021-09-30 12:48:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2021-10-10 13:04:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2021-10-10 13:17:05 -0300"
     },
     "done": true
   },
