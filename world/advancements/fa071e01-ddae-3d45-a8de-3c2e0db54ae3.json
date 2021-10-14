@@ -624,6 +624,7 @@
       "minecraft:hoglin": "2021-09-28 12:33:21 -0300",
       "minecraft:spider": "2021-09-28 13:32:45 -0300",
       "minecraft:creeper": "2021-09-28 13:32:04 -0300",
+      "minecraft:phantom": "2021-10-14 19:10:26 -0300",
       "minecraft:witch": "2021-10-02 14:40:21 -0300",
       "minecraft:shulker": "2021-09-30 12:46:46 -0300",
       "minecraft:piglin": "2021-09-28 12:34:13 -0300",
@@ -1755,6 +1756,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2021-10-14 13:02:35 -0300",
+      "cooked_mutton": "2021-10-14 19:28:25 -0300",
       "chorus_fruit": "2021-09-30 18:38:35 -0300",
       "cooked_beef": "2021-10-10 13:35:00 -0300",
       "baked_potato": "2021-09-25 14:11:14 -0300",
@@ -2751,6 +2753,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2021-09-25 12:58:36 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2021-10-14 19:07:55 -0300"
     },
     "done": true
   },
