@@ -1,17 +1,17 @@
-[18:39:03] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:39:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:39:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:39:03] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18:39:03] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18:39:03] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:39:03] [main/INFO]: Reloading ResourceManager: Default
-[18:39:04] [Worker-Main-13/INFO]: Loaded 7 recipes
-[18:39:05] [Worker-Main-13/INFO]: Loaded 1137 advancements
-[18:39:07] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[18:39:07] [Server thread/INFO]: Loading properties
-[18:39:07] [Server thread/INFO]: Default game type: SURVIVAL
-[18:39:07] [Server thread/INFO]: Generating keypair
-[18:39:07] [Server console handler/ERROR]: Exception handling console input
+[11:50:42] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:50:42] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:50:42] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:50:42] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:50:42] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:50:42] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:50:42] [main/INFO]: Reloading ResourceManager: Default
+[11:50:44] [Worker-Main-13/INFO]: Loaded 7 recipes
+[11:50:44] [Worker-Main-13/INFO]: Loaded 1137 advancements
+[11:50:47] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[11:50:47] [Server thread/INFO]: Loading properties
+[11:50:47] [Server thread/INFO]: Default game type: SURVIVAL
+[11:50:47] [Server thread/INFO]: Generating keypair
+[11:50:47] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Identificador inválido
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:271) ~[?:?]
@@ -25,57 +25,55 @@ java.io.IOException: Identificador inválido
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at aas$1.run(SourceFile:101) [server.jar:?]
-[18:39:07] [Server thread/INFO]: Starting Minecraft server on 26.90.121.19:25565
-[18:39:07] [Server thread/INFO]: Using default channel type
-[18:39:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:39:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:39:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:39:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:39:08] [Server thread/INFO]: Preparing level "world"
-[18:39:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:39:08] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[18:39:08] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[18:39:09] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[18:39:09] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[18:39:10] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[18:39:10] [Worker-Main-9/INFO]: Preparing spawn area: 4%
-[18:39:11] [Worker-Main-13/INFO]: Preparing spawn area: 23%
-[18:39:11] [Worker-Main-14/INFO]: Preparing spawn area: 29%
-[18:39:12] [Worker-Main-13/INFO]: Preparing spawn area: 75%
-[18:39:13] [Server thread/INFO]: Time elapsed: 5066 ms
-[18:39:13] [Server thread/INFO]: Done (5.229s)! For help, type "help"
-[18:39:18] [Server thread/INFO]: ElliWx[/26.90.121.19:62696] logged in with entity id 201 at (5708.288523722391, 61.19690392765404, 1725.699999988079)
-[18:39:18] [Server thread/INFO]: ElliWx joined the game
-[18:40:03] [Server thread/INFO]: teste[/26.235.26.115:57332] logged in with entity id 621 at (100.04247882704726, 49.0, -2.89273017615639)
-[18:40:03] [Server thread/INFO]: teste joined the game
-[18:41:09] [Server thread/INFO]: ElliWx lost connection: Disconnected
-[18:41:09] [Server thread/INFO]: ElliWx left the game
-[18:42:01] [Server thread/INFO]: adrianogomide[/26.90.121.19:60582] logged in with entity id 1270 at (884.6115393997899, 64.0, -1049.1041831245557)
-[18:42:01] [Server thread/INFO]: adrianogomide joined the game
-[18:53:04] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=5672, y=64, z=1688} gg{x=5674, y=62, z=1691}
-[18:59:14] [Server thread/WARN]: adrianogomide moved too quickly! -15.665763320622318,-2.1539585340596545,-7.3451307583797245
-[19:00:55] [Server thread/INFO]: adrianogomide lost connection: Disconnected
-[19:00:55] [Server thread/INFO]: adrianogomide left the game
-[19:01:03] [Server thread/INFO]: ElliWx[/26.90.121.19:60687] logged in with entity id 16694 at (879.3090959911987, 66.0, -1060.5870315530524)
-[19:01:03] [Server thread/INFO]: ElliWx joined the game
-[19:02:45] [Server thread/INFO]: adrianogomide[/26.90.121.19:56464] logged in with entity id 17038 at (880.1566370566607, 64.0, -1044.3126761824149)
-[19:02:45] [Server thread/INFO]: adrianogomide joined the game
-[19:02:56] [Server thread/INFO]: adrianogomide lost connection: Disconnected
-[19:02:56] [Server thread/INFO]: adrianogomide left the game
-[19:17:08] [Server thread/WARN]: Boat (vehicle of teste) moved wrongly! 0.3685396675350603
-[19:17:08] [Server thread/WARN]: Boat (vehicle of teste) moved wrongly! 0.2504187148620076
-[19:17:08] [Server thread/WARN]: Boat (vehicle of teste) moved wrongly! 0.2781577128553181
-[19:17:40] [Server thread/INFO]: teste lost connection: Disconnected
-[19:17:40] [Server thread/INFO]: teste left the game
-[19:18:19] [Server thread/INFO]: ElliWx lost connection: Disconnected
-[19:18:19] [Server thread/INFO]: ElliWx left the game
-[19:18:39] [Server thread/INFO]: Stopping server
-[19:18:39] [Server thread/INFO]: Saving players
-[19:18:39] [Server thread/INFO]: Saving worlds
-[19:18:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:overworld
-[19:18:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_nether
-[19:18:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_end
-[19:18:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:18:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:18:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:18:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:50:47] [Server thread/INFO]: Starting Minecraft server on 26.90.121.19:25565
+[11:50:47] [Server thread/INFO]: Using default channel type
+[11:50:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:50:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:50:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:50:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:50:47] [Server thread/INFO]: Preparing level "world"
+[11:50:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:50:48] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[11:50:48] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[11:50:48] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[11:50:49] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[11:50:49] [Worker-Main-12/INFO]: Preparing spawn area: 3%
+[11:50:50] [Worker-Main-10/INFO]: Preparing spawn area: 4%
+[11:50:50] [Worker-Main-12/INFO]: Preparing spawn area: 9%
+[11:50:51] [Worker-Main-9/INFO]: Preparing spawn area: 45%
+[11:50:51] [Worker-Main-9/INFO]: Preparing spawn area: 73%
+[11:50:53] [Server thread/INFO]: Time elapsed: 5174 ms
+[11:50:53] [Server thread/INFO]: Done (5.307s)! For help, type "help"
+[11:50:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
+[11:51:01] [Server thread/INFO]: ElliWx[/26.90.121.19:62012] logged in with entity id 338 at (99.66354385032766, 49.0, 0.7525578365270955)
+[11:51:01] [Server thread/INFO]: ElliWx joined the game
+[11:59:05] [Server thread/INFO]: teste[/26.235.26.115:49261] logged in with entity id 1690 at (889.3000000119209, 65.5, -1057.8353991069782)
+[11:59:05] [Server thread/INFO]: teste joined the game
+[12:20:07] [Server thread/INFO]: <ElliWx> 59 + 39
+[12:36:38] [Server thread/INFO]: teste lost connection: Disconnected
+[12:36:38] [Server thread/INFO]: teste left the game
+[12:36:47] [Server thread/INFO]: teste[/26.235.26.115:55236] logged in with entity id 8416 at (106.01791463944393, 61.0, 314.0637045056008)
+[12:36:47] [Server thread/INFO]: teste joined the game
+[12:37:43] [Server thread/INFO]: teste lost connection: Disconnected
+[12:37:43] [Server thread/INFO]: teste left the game
+[12:37:49] [Server thread/INFO]: teste[/26.235.26.115:55407] logged in with entity id 8430 at (109.33834298204948, 59.0, 311.30000001192093)
+[12:37:49] [Server thread/INFO]: teste joined the game
+[12:47:21] [Server thread/INFO]: ElliWx was slain by Endermite
+[12:57:36] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=95, y=60, z=318} gg{x=96, y=61, z=318}
+[13:01:14] [Server thread/INFO]: teste fell from a high place
+[13:18:48] [Server thread/INFO]: teste fell from a high place
+[13:28:49] [Server thread/WARN]: teste moved too quickly! 6.457080398000471,0.0,-7.9642532558114
+[13:31:36] [Server thread/INFO]: teste lost connection: Disconnected
+[13:31:36] [Server thread/INFO]: teste left the game
+[13:31:56] [Server thread/INFO]: ElliWx lost connection: Disconnected
+[13:31:56] [Server thread/INFO]: ElliWx left the game
+[13:31:59] [Server thread/INFO]: Stopping server
+[13:31:59] [Server thread/INFO]: Saving players
+[13:31:59] [Server thread/INFO]: Saving worlds
+[13:31:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:overworld
+[13:31:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_nether
+[13:31:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_end
+[13:31:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:31:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:31:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:31:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
