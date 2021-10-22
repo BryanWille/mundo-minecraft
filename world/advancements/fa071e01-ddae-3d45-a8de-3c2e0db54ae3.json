@@ -401,6 +401,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2021-10-22 12:13:58 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2021-09-28 11:59:04 -0300"
@@ -675,6 +681,12 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2021-10-22 11:59:08 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2021-09-30 15:19:40 -0300"
@@ -756,6 +768,12 @@
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2021-09-25 14:06:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2021-10-22 11:58:38 -0300"
     },
     "done": true
   },
@@ -1008,6 +1026,12 @@
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_sand": "2021-09-28 11:59:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2021-10-22 12:13:58 -0300"
     },
     "done": true
   },
@@ -1423,6 +1447,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2021-10-22 11:58:38 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2021-10-14 12:45:01 -0300"
@@ -1573,6 +1603,12 @@
   "minecraft:recipes/building_blocks/magenta_concrete_powder": {
     "criteria": {
       "has_sand": "2021-09-28 11:59:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2021-10-22 12:13:58 -0300"
     },
     "done": true
   },
@@ -2016,6 +2052,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2021-10-22 14:42:52 -0300"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2021-09-28 12:24:48 -0300"
@@ -2349,6 +2391,12 @@
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
       "has_gold_nugget": "2021-10-07 19:41:12 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2021-10-22 13:43:10 -0300"
     },
     "done": true
   },
@@ -2970,6 +3018,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2021-10-22 14:42:52 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
       "has_planks": "2021-09-28 14:00:00 -0300"
@@ -2998,6 +3052,7 @@
     "criteria": {
       "textures/entity/cat/tabby.png": "2021-10-10 19:04:59 -0300",
       "textures/entity/cat/jellie.png": "2021-10-07 19:00:45 -0300",
+      "textures/entity/cat/siamese.png": "2021-10-22 13:34:36 -0300",
       "textures/entity/cat/british_shorthair.png": "2021-10-09 21:12:58 -0300"
     },
     "done": false
@@ -3029,6 +3084,12 @@
   "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2021-09-30 12:48:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2021-10-22 13:01:59 -0300"
     },
     "done": true
   },

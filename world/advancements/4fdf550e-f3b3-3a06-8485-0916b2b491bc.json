@@ -485,6 +485,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2021-10-22 11:26:39 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_sand": "2021-08-21 18:13:38 -0300"
@@ -536,6 +542,12 @@
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2021-08-21 17:26:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2021-10-22 11:26:39 -0300"
     },
     "done": true
   },
@@ -1097,6 +1109,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2021-10-22 11:26:42 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2021-09-28 12:27:20 -0300"
@@ -1154,6 +1172,12 @@
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2021-08-23 19:34:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2021-10-22 11:26:39 -0300"
     },
     "done": true
   },
@@ -1424,6 +1448,12 @@
   "minecraft:recipes/decorations/diorite_wall": {
     "criteria": {
       "has_diorite": "2021-08-21 17:05:18 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2021-10-22 11:26:42 -0300"
     },
     "done": true
   },
@@ -3125,6 +3155,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2021-10-22 11:26:42 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/warped_sign": {
     "criteria": {
       "has_planks": "2021-08-23 20:24:52 -0300"
@@ -3524,6 +3560,12 @@
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2021-09-28 12:40:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2021-10-22 13:02:19 -0300"
     },
     "done": true
   },
