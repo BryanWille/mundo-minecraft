@@ -2054,6 +2054,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cat": "2021-10-24 10:37:07 -0300",
       "minecraft:cow": "2021-10-22 14:42:52 -0300"
     },
     "done": false
@@ -3051,6 +3052,7 @@
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
       "textures/entity/cat/tabby.png": "2021-10-10 19:04:59 -0300",
+      "textures/entity/cat/white.png": "2021-10-24 10:25:42 -0300",
       "textures/entity/cat/jellie.png": "2021-10-07 19:00:45 -0300",
       "textures/entity/cat/siamese.png": "2021-10-22 13:34:36 -0300",
       "textures/entity/cat/british_shorthair.png": "2021-10-09 21:12:58 -0300"
