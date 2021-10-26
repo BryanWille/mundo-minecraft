@@ -514,6 +514,7 @@
       "minecraft:skeleton": "2021-09-28 13:50:31 -0300",
       "minecraft:spider": "2021-10-10 12:52:43 -0300",
       "minecraft:creeper": "2021-09-28 12:36:34 -0300",
+      "minecraft:phantom": "2021-10-24 13:26:05 -0300",
       "minecraft:piglin": "2021-09-28 13:25:22 -0300",
       "minecraft:enderman": "2021-09-30 12:20:26 -0300",
       "minecraft:zombie": "2021-09-25 13:35:45 -0300",
@@ -1969,6 +1970,12 @@
     },
     "done": true
   },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2021-10-24 12:57:59 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2021-09-28 12:40:28 -0300"
@@ -2299,6 +2306,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2021-10-24 13:30:03 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2021-09-28 13:10:17 -0300"
@@ -2344,6 +2357,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2021-09-25 12:57:54 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2021-10-24 13:30:20 -0300"
     },
     "done": true
   },
