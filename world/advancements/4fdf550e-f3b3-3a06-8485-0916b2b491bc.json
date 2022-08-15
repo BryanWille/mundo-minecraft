@@ -1537,24 +1537,23 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:cold_ocean": "2021-08-23 20:37:11 -0300",
-      "minecraft:forest": "2021-08-21 16:59:59 -0300",
-      "minecraft:mountains": "2021-08-21 17:17:08 -0300",
-      "minecraft:taiga": "2021-08-21 18:47:38 -0300",
-      "minecraft:deep_cold_ocean": "2021-08-23 20:37:06 -0300",
-      "minecraft:taiga_hills": "2021-08-21 18:48:57 -0300",
-      "minecraft:birch_forest": "2021-09-17 20:02:27 -0300",
-      "minecraft:warm_ocean": "2021-08-21 18:44:10 -0300",
-      "minecraft:deep_lukewarm_ocean": "2021-08-21 18:45:24 -0300",
+      "minecraft:taiga": "2021-08-21 18:48:57 -0300",
+      "minecraft:deep_ocean": "2022-08-06 20:52:32 -0300",
+      "minecraft:birch_forest": "2021-10-08 17:23:40 -0300",
+      "minecraft:windswept_hills": "2021-08-21 17:17:08 -0300",
       "minecraft:beach": "2021-08-21 17:38:39 -0300",
       "minecraft:dark_forest": "2021-09-17 20:18:32 -0300",
       "minecraft:river": "2021-08-21 17:00:57 -0300",
       "minecraft:lukewarm_ocean": "2021-08-21 17:38:43 -0300",
-      "minecraft:birch_forest_hills": "2021-10-08 17:23:40 -0300",
-      "minecraft:wooded_mountains": "2021-08-21 17:38:06 -0300",
-      "minecraft:wooded_hills": "2021-08-21 17:14:37 -0300",
-      "minecraft:stone_shore": "2021-08-23 20:33:38 -0300",
+      "minecraft:stony_shore": "2021-08-23 20:33:38 -0300",
       "minecraft:swamp": "2021-08-21 17:39:37 -0300",
+      "minecraft:cold_ocean": "2021-08-23 20:37:11 -0300",
+      "minecraft:forest": "2021-08-21 17:14:37 -0300",
+      "minecraft:deep_cold_ocean": "2021-08-23 20:37:06 -0300",
+      "minecraft:windswept_forest": "2021-08-21 17:38:06 -0300",
+      "minecraft:ocean": "2022-08-06 20:52:39 -0300",
+      "minecraft:warm_ocean": "2021-08-21 18:44:10 -0300",
+      "minecraft:deep_lukewarm_ocean": "2021-08-21 18:45:24 -0300",
       "minecraft:plains": "2021-08-21 17:40:53 -0300"
     },
     "done": false
@@ -3761,5 +3760,5 @@
     },
     "done": true
   },
-  "DataVersion": 2730
+  "DataVersion": 3120
 }

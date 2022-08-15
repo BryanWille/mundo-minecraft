@@ -125,6 +125,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2022-08-15 13:47:21 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2021-09-28 13:47:11 -0300"
@@ -179,15 +185,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2021-09-28 11:59:04 -0300"
-    },
-    "done": true
-  },
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_boots": "2021-09-28 11:59:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-09-28 11:59:04 -0300"
     },
     "done": true
   },
@@ -212,6 +218,12 @@
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
     "criteria": {
       "has_cobbled_deepslate": "2021-10-30 09:39:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2022-08-06 20:44:29 -0300"
     },
     "done": true
   },
@@ -458,6 +470,12 @@
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2021-10-07 19:14:45 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2022-08-15 15:11:16 -0300"
     },
     "done": true
   },
@@ -789,6 +807,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2022-08-15 13:45:32 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2021-09-28 13:48:52 -0300"
@@ -918,6 +942,12 @@
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2021-09-25 14:06:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2022-08-15 14:48:16 -0300"
     },
     "done": true
   },
@@ -1323,13 +1353,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_chestplate": {
+  "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_iron_ingot": "2021-09-25 14:06:40 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/combat/crossbow": {
+  "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2021-09-25 14:06:40 -0300"
     },
@@ -1461,6 +1491,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2022-08-15 13:45:32 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2021-10-30 09:39:38 -0300"
@@ -1475,39 +1511,46 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:cold_ocean": "2021-09-28 12:21:15 -0300",
-      "minecraft:jungle_edge": "2021-10-02 14:47:14 -0300",
-      "minecraft:forest": "2021-09-28 12:21:40 -0300",
-      "minecraft:mountains": "2021-09-28 12:22:13 -0300",
-      "minecraft:mushroom_fields": "2021-10-02 14:57:46 -0300",
-      "minecraft:badlands_plateau": "2021-10-07 19:14:22 -0300",
-      "minecraft:taiga": "2021-09-25 13:00:10 -0300",
-      "minecraft:desert_hills": "2021-10-02 14:41:26 -0300",
-      "minecraft:giant_tree_taiga": "2021-10-02 14:55:02 -0300",
-      "minecraft:deep_cold_ocean": "2021-09-28 12:43:29 -0300",
-      "minecraft:taiga_hills": "2021-09-28 14:19:00 -0300",
-      "minecraft:desert": "2021-10-02 14:41:18 -0300",
-      "minecraft:deep_frozen_ocean": "2021-10-07 19:19:59 -0300",
-      "minecraft:jungle": "2021-10-02 14:45:57 -0300",
-      "minecraft:birch_forest": "2021-09-25 13:03:49 -0300",
-      "minecraft:jungle_hills": "2021-10-02 14:46:05 -0300",
+      "minecraft:snowy_slopes": "2022-08-15 14:21:15 -0300",
+      "minecraft:old_growth_pine_taiga": "2021-10-02 14:55:04 -0300",
+      "minecraft:mushroom_fields": "2021-10-02 14:58:31 -0300",
+      "minecraft:taiga": "2021-09-28 14:19:00 -0300",
+      "minecraft:deep_ocean": "2022-08-06 20:45:13 -0300",
+      "minecraft:frozen_river": "2022-08-15 14:20:56 -0300",
+      "minecraft:sunflower_plains": "2022-08-15 15:35:25 -0300",
+      "minecraft:birch_forest": "2021-10-02 10:30:06 -0300",
+      "minecraft:windswept_hills": "2021-09-28 12:22:13 -0300",
       "minecraft:bamboo_jungle": "2021-10-02 14:46:54 -0300",
-      "minecraft:warm_ocean": "2021-10-02 14:49:43 -0300",
-      "minecraft:deep_lukewarm_ocean": "2021-10-02 14:48:53 -0300",
+      "minecraft:wooded_badlands": "2021-10-07 19:13:38 -0300",
       "minecraft:badlands": "2021-10-07 19:13:33 -0300",
       "minecraft:savanna_plateau": "2021-10-15 19:18:07 -0300",
       "minecraft:beach": "2021-09-25 12:58:32 -0300",
       "minecraft:dark_forest": "2021-09-28 12:47:49 -0300",
+      "minecraft:sparse_jungle": "2021-10-02 14:47:14 -0300",
       "minecraft:river": "2021-09-25 12:58:30 -0300",
       "minecraft:lukewarm_ocean": "2021-10-02 14:48:50 -0300",
-      "minecraft:birch_forest_hills": "2021-10-02 10:30:06 -0300",
-      "minecraft:wooded_mountains": "2021-09-28 12:24:09 -0300",
-      "minecraft:wooded_hills": "2021-09-28 12:21:48 -0300",
-      "minecraft:stone_shore": "2021-09-25 12:57:07 -0300",
-      "minecraft:giant_tree_taiga_hills": "2021-10-02 14:55:04 -0300",
-      "minecraft:mushroom_field_shore": "2021-10-02 14:58:31 -0300",
-      "minecraft:wooded_badlands_plateau": "2021-10-07 19:13:38 -0300",
+      "minecraft:stony_shore": "2021-09-25 12:57:07 -0300",
+      "minecraft:snowy_plains": "2022-08-15 14:21:05 -0300",
+      "minecraft:dripstone_caves": "2022-08-15 14:44:11 -0300",
+      "minecraft:snowy_taiga": "2022-08-15 14:20:55 -0300",
       "minecraft:swamp": "2021-10-02 14:40:11 -0300",
+      "minecraft:grove": "2022-08-15 14:30:27 -0300",
+      "minecraft:jagged_peaks": "2022-08-15 14:28:04 -0300",
+      "minecraft:cold_ocean": "2021-09-28 12:21:15 -0300",
+      "minecraft:forest": "2021-09-28 12:21:48 -0300",
+      "minecraft:lush_caves": "2022-08-15 15:04:26 -0300",
+      "minecraft:deep_cold_ocean": "2021-09-28 12:43:29 -0300",
+      "minecraft:ice_spikes": "2022-08-15 15:00:20 -0300",
+      "minecraft:desert": "2021-10-02 14:41:18 -0300",
+      "minecraft:deep_frozen_ocean": "2021-10-07 19:19:59 -0300",
+      "minecraft:windswept_forest": "2021-09-28 12:24:09 -0300",
+      "minecraft:jungle": "2021-10-02 14:46:05 -0300",
+      "minecraft:ocean": "2022-08-06 20:44:23 -0300",
+      "minecraft:old_growth_spruce_taiga": "2022-08-15 14:20:47 -0300",
+      "minecraft:warm_ocean": "2021-10-02 14:49:43 -0300",
+      "minecraft:deep_lukewarm_ocean": "2021-10-02 14:48:53 -0300",
+      "minecraft:meadow": "2022-08-15 15:30:52 -0300",
+      "minecraft:windswept_gravelly_hills": "2022-08-15 15:02:38 -0300",
       "minecraft:savanna": "2021-10-02 14:41:37 -0300",
       "minecraft:plains": "2021-09-28 12:21:20 -0300"
     },
@@ -1822,6 +1865,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2022-08-15 13:45:32 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2021-09-30 13:11:11 -0300"
@@ -1945,6 +1994,12 @@
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2021-09-28 11:59:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2022-08-15 15:11:16 -0300"
     },
     "done": true
   },
@@ -2089,6 +2144,12 @@
   "minecraft:recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore": {
     "criteria": {
       "has_deepslate_gold_ore": "2021-09-30 12:26:31 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2022-08-15 14:31:28 -0300"
     },
     "done": true
   },
@@ -2569,6 +2630,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2022-08-15 14:31:28 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/item_frame": {
     "criteria": {
       "has_leather": "2021-09-28 12:33:24 -0300"
@@ -2788,6 +2855,12 @@
   "minecraft:recipes/decorations/green_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2021-10-14 12:47:58 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2022-08-15 14:21:43 -0300"
     },
     "done": true
   },
@@ -3319,6 +3392,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2022-08-15 14:21:43 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2021-10-24 12:55:29 -0300"
@@ -3421,6 +3500,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2022-08-15 14:48:16 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_brick_stairs": {
     "criteria": {
       "has_nether_bricks": "2021-10-24 13:18:05 -0300"
@@ -3495,11 +3580,11 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "textures/entity/cat/tabby.png": "2021-10-10 19:04:59 -0300",
-      "textures/entity/cat/white.png": "2021-10-24 10:25:42 -0300",
-      "textures/entity/cat/jellie.png": "2021-10-07 19:00:45 -0300",
-      "textures/entity/cat/siamese.png": "2021-10-22 13:34:36 -0300",
-      "textures/entity/cat/british_shorthair.png": "2021-10-09 21:12:58 -0300"
+      "minecraft:white": "2021-10-24 10:25:42 -0300",
+      "minecraft:tabby": "2021-10-10 19:04:59 -0300",
+      "minecraft:siamese": "2021-10-22 13:34:36 -0300",
+      "minecraft:jellie": "2021-10-07 19:00:45 -0300",
+      "minecraft:british_shorthair": "2021-10-09 21:12:58 -0300"
     },
     "done": false
   },
@@ -3617,5 +3702,5 @@
     },
     "done": true
   },
-  "DataVersion": 2730
+  "DataVersion": 3120
 }
