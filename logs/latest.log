@@ -1,12 +1,12 @@
-[13:39:12] [ServerMain/INFO]: Building unoptimized datafixer
-[13:39:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:39:21] [ServerMain/INFO]: Loaded 7 recipes
-[13:39:22] [ServerMain/INFO]: Loaded 1179 advancements
-[13:39:26] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[13:39:26] [Server thread/INFO]: Loading properties
-[13:39:26] [Server thread/INFO]: Default game type: SURVIVAL
-[13:39:26] [Server thread/INFO]: Generating keypair
-[13:39:26] [Server console handler/ERROR]: Exception handling console input
+[20:42:46] [ServerMain/INFO]: Building unoptimized datafixer
+[20:42:47] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:42:50] [ServerMain/INFO]: Loaded 7 recipes
+[20:42:50] [ServerMain/INFO]: Loaded 1179 advancements
+[20:42:53] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[20:42:53] [Server thread/INFO]: Loading properties
+[20:42:53] [Server thread/INFO]: Default game type: SURVIVAL
+[20:42:53] [Server thread/INFO]: Generating keypair
+[20:42:53] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Identificador inválido
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
@@ -20,205 +20,64 @@ java.io.IOException: Identificador inválido
 	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
 	at afh$1.run(SourceFile:92) [server-1.19.2.jar:?]
-[13:39:26] [Server thread/INFO]: Starting Minecraft server on 26.133.227.219:25565
-[13:39:26] [Server thread/INFO]: Using default channel type
-[13:39:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:39:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:39:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:39:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:39:27] [Server thread/INFO]: Preparing level "world"
-[13:39:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:39:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[13:39:34] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[13:39:35] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[13:39:35] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:39:36] [Worker-Main-15/INFO]: Preparing spawn area: 0%
-[13:39:36] [Worker-Main-9/INFO]: Preparing spawn area: 0%
-[13:39:37] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[13:39:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[13:39:38] [Worker-Main-12/INFO]: Preparing spawn area: 3%
-[13:39:38] [Worker-Main-13/INFO]: Preparing spawn area: 14%
-[13:39:39] [Worker-Main-1/INFO]: Preparing spawn area: 19%
-[13:39:39] [Worker-Main-8/INFO]: Preparing spawn area: 77%
-[13:39:39] [Server thread/INFO]: Time elapsed: 12297 ms
-[13:39:40] [Server thread/INFO]: Done (12.662s)! For help, type "help"
-[13:39:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
-[13:40:05] [Server thread/INFO]: ElliWx[/26.133.227.219:57471] logged in with entity id 404 at (918.1137329107906, 63.0, -1044.1666744433426)
-[13:40:05] [Server thread/INFO]: ElliWx joined the game
-[13:41:17] [Server thread/INFO]: [Not Secure] <ElliWx> zZzzZzZzzZZZz
-[13:42:27] [Server thread/INFO]: luas69[/26.125.111.101:53915] logged in with entity id 966 at (895.5433860308511, 63.5625, -1053.6505629152382)
-[13:42:27] [Server thread/INFO]: luas69 joined the game
-[13:45:36] [Server thread/INFO]: luas69 has made the advancement [Acquire Hardware]
-[13:51:45] [Server thread/WARN]: ElliWx moved too quickly! -792.9565430974145,17.308380362894688,1551.9214086429947
-[13:51:45] [Server thread/WARN]: luas69 moved too quickly! -7.6728108114687075,-2.532375393818157,15.581527241600497
-[13:51:45] [Server thread/WARN]: ElliWx moved too quickly! -792.9565430974145,17.308380362894688,1551.9214086429947
-[13:51:45] [Server thread/WARN]: ElliWx moved too quickly! -792.9565430974145,17.308380362894688,1551.9214086429947
-[13:51:45] [Server thread/WARN]: ElliWx moved too quickly! -792.9565430974145,17.308380362894688,1551.9214086429947
-[13:51:45] [Server thread/WARN]: ElliWx moved too quickly! -792.9565430974145,17.308380362894688,1551.9214086429947
-[13:51:45] [Server thread/WARN]: ElliWx moved too quickly! -792.9565430974145,17.308380362894688,1551.9214086429947
-[13:51:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2373ms or 47 ticks behind
-[14:07:22] [Server thread/INFO]: luas69 has made the advancement [Diamonds!]
-[14:08:17] [Server thread/WARN]: ElliWx moved too quickly! -791.8603667304588,17.278565420977188,1550.559980644021
-[14:08:17] [Server thread/WARN]: ElliWx moved too quickly! -791.8603667304588,17.278565420977188,1550.559980644021
-[14:08:17] [Server thread/WARN]: ElliWx moved too quickly! -791.8603667304588,17.278565420977188,1550.559980644021
-[14:08:17] [Server thread/WARN]: ElliWx moved too quickly! -791.8603667304588,17.278565420977188,1550.559980644021
-[14:08:44] [Server thread/INFO]: [Not Secure] <luas69> 882.260 66.00000
-[14:16:29] [Server thread/INFO]: luas69 lost connection: Disconnected
-[14:16:29] [Server thread/INFO]: luas69 left the game
-[14:16:29] [Server thread/INFO]: [Not Secure] <ElliWx> zZZzZzZ
-[14:16:39] [Server thread/INFO]: luas69[/26.125.111.101:54932] logged in with entity id 23114 at (1225.9758097723557, 63.0, -2430.1076373781457)
-[14:16:39] [Server thread/INFO]: luas69 joined the game
-[14:16:52] [Server thread/INFO]: [Not Secure] <ElliWx> 880 -1000
-[14:17:09] [Server thread/INFO]: luas69 lost connection: Disconnected
-[14:17:09] [Server thread/INFO]: luas69 left the game
-[14:17:20] [Server thread/INFO]: luas69[/26.125.111.101:54954] logged in with entity id 23451 at (1225.9758097723557, 63.0, -2430.1076373781457)
-[14:17:20] [Server thread/INFO]: luas69 joined the game
-[14:17:27] [Server thread/INFO]: [Not Secure] <luas69> t
-[14:17:30] [Server thread/INFO]: [Not Secure] <ElliWx> 880 -1000
-[14:20:31] [Server thread/INFO]: [Not Secure] <ElliWx> 880 -1000
-[14:22:00] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=2363, y=110, z=-2173} gt{x=2365, y=109, z=-2173}
-[14:22:00] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=2363, y=110, z=-2173} gt{x=2365, y=109, z=-2173}
-[14:22:00] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=2363, y=110, z=-2173} gt{x=2365, y=109, z=-2173}
-[14:22:00] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=2363, y=110, z=-2173} gt{x=2365, y=109, z=-2173}
-[14:22:16] [Server thread/INFO]: [Not Secure] <ElliWx> 2363 -2176
-[14:27:12] [Server thread/INFO]: [Not Secure] <ElliWx> 2363 -2176
-[14:27:12] [Server thread/INFO]: [Not Secure] <ElliWx> 2363 -2176
-[14:28:11] [Server thread/INFO]: [Not Secure] <ElliWx> 2363 -2176
-[14:30:51] [Server thread/INFO]: [Not Secure] <luas69> 2085 -3352
-[14:47:22] [Server thread/INFO]: Villager btp['Villager'/58900, l='ServerLevel[k]', x=3280.28, y=69.00, z=-1506.63] died, message: 'Villager suffocated in a wall'
-[14:48:09] [Server thread/INFO]: [Not Secure] <luas69> zzzzzzzzzzzzzz
-[14:48:25] [Server thread/INFO]: [Not Secure] <ElliWx> zZzZZ
-[14:50:42] [Server thread/INFO]: luas69 has made the advancement [Stone Age]
-[14:57:38] [Server thread/INFO]: luas69 lost connection: Disconnected
-[14:57:38] [Server thread/INFO]: luas69 left the game
-[14:57:51] [Server thread/INFO]: luas69[/26.125.111.101:56236] logged in with entity id 62969 at (882.2909958924987, 66.0, -1059.3829644824145)
-[14:57:51] [Server thread/INFO]: luas69 joined the game
-[15:01:00] [Server thread/INFO]: [Not Secure] <ElliWx> ZXZzzZzZzZ
-[15:01:01] [Server thread/INFO]: [Not Secure] <ElliWx> zZz
-[15:01:03] [Server thread/INFO]: [Not Secure] <luas69> zzzzzzzz
-[15:05:32] [Server thread/WARN]: luas69 moved wrongly!
-[15:12:09] [Server thread/INFO]: [Not Secure] <luas69> 1743 461
-[15:18:09] [Server thread/INFO]: luas69 was shot by Skeleton
-[15:19:26] [Server thread/INFO]: luas69 lost connection: Disconnected
-[15:19:26] [Server thread/INFO]: luas69 left the game
-[15:28:48] [Server thread/INFO]: [Not Secure] <ElliWx> 4503
-[15:29:00] [Server thread/INFO]: [Not Secure] <ElliWx> 424
-[15:32:31] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=4505, y=92, z=425} gt{x=4506, y=93, z=425}
-[15:32:31] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=4504, y=92, z=425} gt{x=4506, y=93, z=425}
-[15:32:31] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=4505, y=92, z=425} gt{x=4506, y=93, z=425}
-[15:32:31] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=4504, y=92, z=425} gt{x=4506, y=93, z=425}
-[15:32:31] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=4504, y=92, z=425} gt{x=4506, y=93, z=425}
-[15:32:31] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=4504, y=92, z=425} gt{x=4506, y=93, z=425}
-[15:32:31] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=4503, y=93, z=426} gt{x=4504, y=93, z=426}
-[15:32:31] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=4503, y=93, z=426} gt{x=4504, y=93, z=426}
-[15:32:31] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=4503, y=93, z=426} gt{x=4504, y=93, z=426}
-[15:32:31] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=4503, y=93, z=426} gt{x=4504, y=93, z=426}
-[15:32:31] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=4503, y=92, z=426} gt{x=4504, y=93, z=426}
-[15:32:33] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=4503, y=91, z=427} gt{x=4504, y=93, z=426}
-[15:37:41] [Server thread/INFO]: luas69[/26.125.111.101:61926] logged in with entity id 99522 at (895.6093953366465, 63.5625, -1051.945239676633)
-[15:37:41] [Server thread/INFO]: luas69 joined the game
-[15:38:11] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[15:38:11] [Server thread/INFO]: KILL glaucoma69<--[HERE]
-[15:38:24] [Server thread/INFO]: luas69 fell out of the world
-[15:38:24] [Server thread/INFO]: Killed luas69
-[15:38:43] [Server thread/INFO]: [Not Secure] [Server] luan é gay
-[15:39:21] [Server thread/INFO]: /advancement (grant|revoke)
-[15:39:21] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[15:39:21] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in)
-[15:39:21] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[15:39:21] [Server thread/INFO]: /clear [<targets>]
-[15:39:21] [Server thread/INFO]: /clone <begin> <end> <destination> [replace|masked|filtered]
-[15:39:21] [Server thread/INFO]: /data (merge|get|remove|modify)
-[15:39:21] [Server thread/INFO]: /datapack (enable|disable|list)
-[15:39:21] [Server thread/INFO]: /debug (start|stop|function)
-[15:39:21] [Server thread/INFO]: /defaultgamemode (survival|creative|adventure|spectator)
-[15:39:21] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[15:39:21] [Server thread/INFO]: /effect (clear|give)
-[15:39:21] [Server thread/INFO]: /me <action>
-[15:39:21] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[15:39:21] [Server thread/INFO]: /experience (add|set|query)
-[15:39:21] [Server thread/INFO]: /xp -> experience
-[15:39:21] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[15:39:21] [Server thread/INFO]: /forceload (add|remove|query)
-[15:39:21] [Server thread/INFO]: /function <name>
-[15:39:21] [Server thread/INFO]: /gamemode (survival|creative|adventure|spectator)
-[15:39:21] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
-[15:39:21] [Server thread/INFO]: /give <targets> <item> [<count>]
-[15:39:21] [Server thread/INFO]: /help [<command>]
-[15:39:21] [Server thread/INFO]: /item (replace|modify)
-[15:39:21] [Server thread/INFO]: /kick <targets> [<reason>]
-[15:39:21] [Server thread/INFO]: /kill [<targets>]
-[15:39:21] [Server thread/INFO]: /list [uuids]
-[15:39:21] [Server thread/INFO]: /locate (structure|biome|poi)
-[15:39:21] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[15:39:21] [Server thread/INFO]: /msg <targets> <message>
-[15:39:21] [Server thread/INFO]: /tell -> msg
-[15:39:21] [Server thread/INFO]: /w -> msg
-[15:39:21] [Server thread/INFO]: /particle <name> [<pos>]
-[15:39:21] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
-[15:39:21] [Server thread/INFO]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
-[15:39:21] [Server thread/INFO]: /reload
-[15:39:21] [Server thread/INFO]: /recipe (give|take)
-[15:39:21] [Server thread/INFO]: /say <message>
-[15:39:21] [Server thread/INFO]: /schedule (function|clear)
-[15:39:21] [Server thread/INFO]: /scoreboard (objectives|players)
-[15:39:21] [Server thread/INFO]: /seed
-[15:39:21] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[15:39:21] [Server thread/INFO]: /spawnpoint [<targets>]
-[15:39:21] [Server thread/INFO]: /setworldspawn [<pos>]
-[15:39:21] [Server thread/INFO]: /spectate [<target>]
-[15:39:21] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[15:39:21] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[15:39:21] [Server thread/INFO]: /summon <entity> [<pos>]
-[15:39:21] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[15:39:21] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[15:39:21] [Server thread/INFO]: /teammsg <message>
-[15:39:21] [Server thread/INFO]: /tm -> teammsg
-[15:39:21] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[15:39:21] [Server thread/INFO]: /tp -> teleport
-[15:39:21] [Server thread/INFO]: /tellraw <targets> <message>
-[15:39:21] [Server thread/INFO]: /time (set|add|query)
-[15:39:21] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[15:39:21] [Server thread/INFO]: /trigger <objective> [add|set]
-[15:39:21] [Server thread/INFO]: /weather (clear|rain|thunder)
-[15:39:21] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[15:39:21] [Server thread/INFO]: /jfr (start|stop)
-[15:39:21] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[15:39:21] [Server thread/INFO]: /banlist [ips|players]
-[15:39:21] [Server thread/INFO]: /ban <targets> [<reason>]
-[15:39:21] [Server thread/INFO]: /deop <targets>
-[15:39:21] [Server thread/INFO]: /op <targets>
-[15:39:21] [Server thread/INFO]: /pardon <targets>
-[15:39:21] [Server thread/INFO]: /pardon-ip <target>
-[15:39:21] [Server thread/INFO]: /perf (start|stop)
-[15:39:21] [Server thread/INFO]: /save-all [flush]
-[15:39:21] [Server thread/INFO]: /save-off
-[15:39:21] [Server thread/INFO]: /save-on
-[15:39:21] [Server thread/INFO]: /setidletimeout <minutes>
-[15:39:21] [Server thread/INFO]: /stop
-[15:39:21] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[15:39:49] [Server thread/INFO]: luas69 lost connection: Disconnected
-[15:39:49] [Server thread/INFO]: luas69 left the game
-[15:39:57] [Server thread/INFO]: Stopping server
-[15:39:57] [Server thread/INFO]: Saving players
-[15:39:57] [Server thread/INFO]: Saving worlds
-[15:39:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:overworld
-[15:39:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_end
-[15:39:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_nether
-[15:39:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:39:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:39:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:39:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:42:53] [Server thread/INFO]: Starting Minecraft server on 26.133.227.219:25565
+[20:42:53] [Server thread/INFO]: Using default channel type
+[20:42:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:42:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:42:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:42:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:42:53] [Server thread/INFO]: Preparing level "world"
+[20:42:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:42:58] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[20:42:58] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:42:58] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:42:58] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:42:58] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:42:58] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[20:42:58] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:42:58] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:42:58] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[20:42:58] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[20:42:59] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[20:42:59] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:43:00] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[20:43:00] [Worker-Main-3/INFO]: Preparing spawn area: 29%
+[20:43:01] [Worker-Main-14/INFO]: Preparing spawn area: 86%
+[20:43:01] [Server thread/INFO]: Time elapsed: 7176 ms
+[20:43:01] [Server thread/INFO]: Done (7.411s)! For help, type "help"
+[20:43:48] [Server thread/INFO]: ElliWx[/26.133.227.219:59555] logged in with entity id 400 at (885.5851090795067, 66.0, -1056.4393129421235)
+[20:43:48] [Server thread/INFO]: ElliWx joined the game
+[20:47:30] [Server thread/WARN]: ElliWx moved wrongly!
+[20:54:03] [Server thread/INFO]: luas69[/26.125.111.101:49650] logged in with entity id 9748 at (881.0393393957042, 66.0, -1059.7536170359388)
+[20:54:03] [Server thread/INFO]: luas69 joined the game
+[21:00:54] [Server thread/INFO]: luas69 has made the advancement [A Seedy Place]
+[21:02:23] [Server thread/INFO]: luas69 has made the advancement [The Parrots and the Bats]
+[21:06:06] [Server thread/WARN]: luas69 was kicked for floating too long!
+[21:06:06] [Server thread/INFO]: luas69 lost connection: Disconnected
+[21:06:06] [Server thread/INFO]: luas69 left the game
+[21:06:06] [Server thread/WARN]: handleDisconnection() called twice
+[21:11:12] [Server thread/INFO]: luas69[/26.125.111.101:56833] logged in with entity id 26638 at (924.2914756680054, 63.7531999805212, -1026.5773636319925)
+[21:11:12] [Server thread/INFO]: luas69 joined the game
+[21:17:58] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-501, y=39, z=1802} gt{x=-500, y=40, z=1801}
+[21:18:02] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-500, y=37, z=1804} gt{x=-500, y=37, z=1803}
+[21:20:43] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-543, y=28, z=1918} gt{x=-544, y=26, z=1919}
+[21:24:02] [Server thread/WARN]: ElliWx moved too quickly! 15.027382156140561,-2.759304150560851,-10.987286485300956
+[21:29:17] [Server thread/INFO]: luas69 has made the advancement [Best Friends Forever]
+[21:29:27] [Server thread/WARN]: ElliWx moved too quickly! 1.3457060527138083,-2.8190489269946397,-17.71479860031414
+[21:29:32] [Server thread/INFO]: luas69 has made the advancement [We Need to Go Deeper]
+[21:33:40] [Server thread/INFO]: luas69 was slain by Wolf
+[21:35:10] [Server thread/INFO]: luas69 lost connection: Disconnected
+[21:35:10] [Server thread/INFO]: luas69 left the game
+[21:36:31] [Server thread/INFO]: ElliWx lost connection: Disconnected
+[21:36:31] [Server thread/INFO]: ElliWx left the game
+[21:37:28] [Server thread/INFO]: Stopping the server
+[21:37:28] [Server thread/INFO]: Stopping server
+[21:37:28] [Server thread/INFO]: Saving players
+[21:37:28] [Server thread/INFO]: Saving worlds
+[21:37:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:overworld
+[21:37:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_end
+[21:37:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[k]'/minecraft:the_nether
+[21:37:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:37:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:37:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:37:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
